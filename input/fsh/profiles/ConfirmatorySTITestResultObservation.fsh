@@ -8,7 +8,7 @@ Description: "Captures confirmatory STI result and treatment details"
 * category MS
 * code MS
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 * effectiveDateTime MS
 
 

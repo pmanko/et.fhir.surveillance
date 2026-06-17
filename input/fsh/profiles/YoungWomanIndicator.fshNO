@@ -10,7 +10,7 @@ Description: "Indicates whether the client is a young woman"
 * code = http://loinc.org#LA22851-7 "Age group"
 
 * subject 1..1 MS
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * effectiveDateTime 1..1 MS
 

@@ -10,7 +10,7 @@ Description: "Gestational age in weeks (and optionally days)"
 * code = http://loinc.org#11884-4 "Gestational age"
 
 * subject 1..1 MS
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * effectiveDateTime 1..1 MS
 

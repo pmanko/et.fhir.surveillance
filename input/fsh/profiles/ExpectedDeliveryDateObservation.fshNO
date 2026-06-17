@@ -10,7 +10,7 @@ Description: "Estimated date when the patient is expected to deliver"
 * code = http://loinc.org#11778-8 "Estimated date of delivery"
 
 * subject 1..1 MS
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * effectiveDateTime 1..1 MS
 // when the EDD was assessed/calculated

@@ -10,7 +10,7 @@ Description: "Indicates whether the client is currently pregnant"
 * code = http://loinc.org#82810-3 "Pregnancy status"
 
 * subject 1..1 MS
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * effectiveDateTime 1..1 MS
 

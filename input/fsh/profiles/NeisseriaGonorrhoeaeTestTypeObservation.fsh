@@ -11,7 +11,7 @@ Description: "Type of Neisseria gonorrhoeae test performed"
 * code.text = "Neisseria gonorrhoeae test type"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * effective[x] 0..1
 * effective[x] only dateTime

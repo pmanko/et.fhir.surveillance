@@ -10,7 +10,7 @@ Description: "Indicates whether the infant is currently being breastfed by the m
 * code = http://loinc.org#63895-7 "Infant feeding status"
 
 * subject 1..1 MS
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * effectiveDateTime 1..1 MS
 

@@ -11,7 +11,7 @@ Description: "Indicates types of counselling provided to the client"
 * code.text = "Counselling provided"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * value[x] 1..1
 * value[x] only CodeableConcept

@@ -12,7 +12,7 @@ Description: "Indicates whether clinical enquiry for intimate partner violence (
 * code.text = "Clinical enquiry for intimate partner violence (IPV) done"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * value[x] 1..1
 * value[x] only boolean

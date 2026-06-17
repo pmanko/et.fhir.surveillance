@@ -11,7 +11,7 @@ Description: "Captures syphilis test date, test result, and treatment initiation
 * code.text = "Syphilis testing and treatment"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 
 // -----------------------------

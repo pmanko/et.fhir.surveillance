@@ -11,7 +11,7 @@ Description: "Captures gonorrhoea test date, specimen type, test result, treatme
 * code.text = "Gonorrhoea testing and treatment"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 
 // -----------------------------

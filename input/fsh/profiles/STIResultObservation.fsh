@@ -7,7 +7,7 @@ Description: "Observation for STI test result with confirmatory test date"
 * status MS
 * category MS
 * code MS
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 * effectiveDateTime MS
 
 // =========================

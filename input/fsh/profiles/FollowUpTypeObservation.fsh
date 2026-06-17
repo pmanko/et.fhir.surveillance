@@ -11,7 +11,7 @@ Description: "Captures follow-up type, recommended date, scheduled appointment d
 * code.text = "Follow-up plan"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 
 // -----------------------------

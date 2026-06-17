@@ -11,7 +11,7 @@ Description: "Type of Mycoplasma genitalium test performed"
 * code.text = "Mycoplasma genitalium test type"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * effective[x] 0..1
 * effective[x] only dateTime

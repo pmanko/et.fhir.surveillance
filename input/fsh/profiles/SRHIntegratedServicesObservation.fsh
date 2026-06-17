@@ -11,7 +11,7 @@ Description: "Indicates SRH integrated services provided to the client"
 * code.text = "Sexual and reproductive health integrated services"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * value[x] 1..1
 * value[x] only CodeableConcept

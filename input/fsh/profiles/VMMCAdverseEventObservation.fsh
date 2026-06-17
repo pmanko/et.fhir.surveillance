@@ -11,7 +11,7 @@ Description: "Captures adverse events following VMMC, including severity, timing
 * code.text = "VMMC adverse events"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 
 // -----------------------------

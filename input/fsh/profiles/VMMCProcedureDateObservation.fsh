@@ -11,7 +11,7 @@ Description: "Captures the date/time when the VMMC procedure was performed"
 * code.text = "VMMC procedure date"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * value[x] 1..1
 * valueDateTime 1..1

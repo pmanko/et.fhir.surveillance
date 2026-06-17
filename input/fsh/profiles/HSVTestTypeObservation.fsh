@@ -11,7 +11,7 @@ Description: "Type of Herpes simplex virus (HSV) test performed"
 * code.text = "Herpes simplex virus (HSV) test type"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * effective[x] 0..1
 * effective[x] only dateTime

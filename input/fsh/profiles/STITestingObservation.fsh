@@ -11,7 +11,7 @@ Description: "Captures whether any STI syndrome was diagnosed, date of STI test,
 * code.text = "STI testing and diagnosis"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 
 // -----------------------------

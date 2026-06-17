@@ -11,7 +11,7 @@ Description: "Indicates whether Voluntary Medical Male Circumcision (VMMC) proce
 * code.text = "VMMC procedure performed"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * value[x] 1..1
 * valueBoolean 1..1

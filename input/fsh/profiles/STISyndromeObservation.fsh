@@ -11,7 +11,7 @@ Description: "Captures the syndrome or STI diagnosed, including option to specif
 * code.text = "Syndrome/STI diagnosed"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 
 // -----------------------------

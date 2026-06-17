@@ -11,7 +11,7 @@ Description: "Outcome of intimate partner violence enquiry"
 * code.text = "Intimate partner violence enquiry result"
 
 * subject 1..1
-* subject only Reference(HIVPatient)
+* subject only Reference(ETPatient)
 
 * value[x] 1..1
 * value[x] only CodeableConcept
