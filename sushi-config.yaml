@@ -1,0 +1,21 @@
+id: et.fhir.surveillance
+canonical: http://fhir.et/surveillance
+name: ETSurveillance
+title: "Ethiopia Surveillance IG (sandbox demo subset)"
+description: "Minimal surveillance IG derived from et.fhir.core for the conformance sandbox. Profiles Encounter and MedicationDispense; extends the Ethiopia base."
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: ci-build
+publisher:
+  name: MOH Ethiopia
+dependencies:
+  et.fhir.core: 0.9.0
+
+pages:
+  index.md:
+    title: Overview
+menu:
+  Home: index.html
+  Artifacts: artifacts.html

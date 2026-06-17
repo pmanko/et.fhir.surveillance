@@ -1,0 +1,36 @@
+name: Build IG and publish to GitHub Pages
+
+on:
+  push:
+    branches-ignore: [gh-pages]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build IG (seed deps + IG Publisher)
+        uses: docker://hl7fhir/ig-publisher-base:latest
+        with:
+          args: bash _ci-build.sh
+      - name: Upload build output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ig-output
+          path: |
+            output/qa.html
+            output/package.tgz
+          if-no-files-found: warn
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: ./output
+          single-commit: true
