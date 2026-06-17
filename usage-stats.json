@@ -1,0 +1,179 @@
+{
+  "package": "et.fhir.surveillance",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "extensions": [
+    {
+      "url": "http://fhir.et/surveillance/StructureDefinition/FPFollowUpMsgConsent",
+      "title": "Consent to Receive Family Planning Follow-up Messages",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://fhir.et/surveillance/StructureDefinition/cachment-area",
+      "title": "cachment Area",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://fhir.et/surveillance/StructureDefinition/community-entry-point",
+      "title": "Community Entry Point",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://fhir.et/surveillance/StructureDefinition/confirmed-site",
+      "title": "ConfirmedSite",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://fhir.et/surveillance/StructureDefinition/consent-to-be-contacted",
+      "title": "Consent to be Contacted",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://fhir.et/surveillance/StructureDefinition/partner-services-referral",
+      "title": "Referred through partner services",
+      "types": [
+        "CodeableConcept"
+      ]
+    }
+  ],
+  "profiles": {
+    "Observation": [
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/chlamydia-trachomatis-test-type-observation",
+        "title": "Chlamydia trachomatis Test Type Observation"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/confirmatory-sti-test-result-observation",
+        "title": "Confirmatory STI Test Result Observation"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/confirmatory-syphilis-test-observation",
+        "title": "Confirmatory Syphilis Test Observation"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/counselling-provided",
+        "title": "Counselling Provided"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/follow-up-type-observation",
+        "title": "Type of Follow-Up"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/gonorrhoea-testing-observation",
+        "title": "Gonorrhoea Testing and Treatment"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/hsv-test-type-observation",
+        "title": "Herpes Simplex Virus (HSV) Test Type Observation"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/ipv-clinical-enquiry",
+        "title": "Clinical Enquiry for Intimate Partner Violence (IPV)"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/mycoplasma-genitalium-test-type-observation",
+        "title": "Mycoplasma genitalium Test Type Observation"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/neisseria-gonorrhoeae-test-type-observation",
+        "title": "Neisseria gonorrhoeae Test Type Observation"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/pregnancy-status-observation",
+        "title": "Pregnancy Status (Boolean)"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/srh-integrated-services",
+        "title": "Sexual and Reproductive Health Integrated Services"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/sti-result-observation",
+        "title": "STI Test Result Observation"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/sti-syndrome-observation",
+        "title": "Syndrome/STI Diagnosed"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/sti-testing-observation",
+        "title": "STI Testing and Diagnosis"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/syphilis-test-type-observation",
+        "title": "Syphilis Test Type Observation"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/syphilis-testing-treatment-observation",
+        "title": "Syphilis Testing and Treatment"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/trichomonas-vaginalis-test-type-observation",
+        "title": "Trichomonas vaginalis Test Type Observation"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/vmmc-adverse-event-observation",
+        "title": "VMMC Adverse Events"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/vmmc-procedure-date-observation",
+        "title": "VMMC Procedure Date"
+      },
+      {
+        "url": "http://fhir.et/surveillance/StructureDefinition/vmmc-procedure-observation",
+        "title": "VMMC Procedure"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ]
+  }
+}

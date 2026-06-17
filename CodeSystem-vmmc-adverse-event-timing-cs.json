@@ -1,0 +1,26 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "vmmc-adverse-event-timing-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem vmmc-adverse-event-timing-cs</b></p><a name=\"vmmc-adverse-event-timing-cs\"> </a><a name=\"hcvmmc-adverse-event-timing-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">INTRAOPERATIVE<a name=\"vmmc-adverse-event-timing-cs-INTRAOPERATIVE\"> </a></td><td>Intraoperative</td></tr><tr><td style=\"white-space:nowrap\">POSTOPERATIVE<a name=\"vmmc-adverse-event-timing-cs-POSTOPERATIVE\"> </a></td><td>Postoperative</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs",
+  "version" : "0.1.0",
+  "name" : "VMMCAdverseEventTimingCS",
+  "title" : "Timing of Adverse Event",
+  "status" : "draft",
+  "date" : "2026-06-17T09:34:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Code system of Timing of Adverse Event codes.",
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "INTRAOPERATIVE",
+    "display" : "Intraoperative"
+  },
+  {
+    "code" : "POSTOPERATIVE",
+    "display" : "Postoperative"
+  }]
+}

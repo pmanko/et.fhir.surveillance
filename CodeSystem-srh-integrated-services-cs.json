@@ -1,0 +1,38 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "srh-integrated-services-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem srh-integrated-services-cs</b></p><a name=\"srh-integrated-services-cs\"> </a><a name=\"hcsrh-integrated-services-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">family-planning<a name=\"srh-integrated-services-cs-family-planning\"> </a></td><td>Contraception and family planning</td></tr><tr><td style=\"white-space:nowrap\">pregnancy-check<a name=\"srh-integrated-services-cs-pregnancy-check\"> </a></td><td>Check pregnancy status</td></tr><tr><td style=\"white-space:nowrap\">pmtct<a name=\"srh-integrated-services-cs-pmtct\"> </a></td><td>Prevention of mother-to-child transmission counselling</td></tr><tr><td style=\"white-space:nowrap\">cervical-cancer<a name=\"srh-integrated-services-cs-cervical-cancer\"> </a></td><td>Cervical cancer screening and treatment counselling</td></tr><tr><td style=\"white-space:nowrap\">sti-services<a name=\"srh-integrated-services-cs-sti-services\"> </a></td><td>STI testing and treatment services</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs",
+  "version" : "0.1.0",
+  "name" : "SRHIntegratedServicesCS",
+  "title" : "Sexual and Reproductive Health Integrated Services",
+  "status" : "active",
+  "date" : "2026-06-17T09:34:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Types of SRH integrated services provided",
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "family-planning",
+    "display" : "Contraception and family planning"
+  },
+  {
+    "code" : "pregnancy-check",
+    "display" : "Check pregnancy status"
+  },
+  {
+    "code" : "pmtct",
+    "display" : "Prevention of mother-to-child transmission counselling"
+  },
+  {
+    "code" : "cervical-cancer",
+    "display" : "Cervical cancer screening and treatment counselling"
+  },
+  {
+    "code" : "sti-services",
+    "display" : "STI testing and treatment services"
+  }]
+}

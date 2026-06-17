@@ -1,0 +1,50 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "sti-syndrome-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sti-syndrome-cs</b></p><a name=\"sti-syndrome-cs\"> </a><a name=\"hcsti-syndrome-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">URETHRAL_DISCHARGE<a name=\"sti-syndrome-cs-URETHRAL_DISCHARGE\"> </a></td><td>Urethral discharge syndrome</td></tr><tr><td style=\"white-space:nowrap\">VAGINAL_DISCHARGE<a name=\"sti-syndrome-cs-VAGINAL_DISCHARGE\"> </a></td><td>Vaginal discharge syndrome</td></tr><tr><td style=\"white-space:nowrap\">LOWER_ABDOMINAL_PAIN<a name=\"sti-syndrome-cs-LOWER_ABDOMINAL_PAIN\"> </a></td><td>Lower abdominal pain</td></tr><tr><td style=\"white-space:nowrap\">GENITAL_ULCER<a name=\"sti-syndrome-cs-GENITAL_ULCER\"> </a></td><td>Genital ulcer disease syndrome</td></tr><tr><td style=\"white-space:nowrap\">SCROTAL_SWELLING<a name=\"sti-syndrome-cs-SCROTAL_SWELLING\"> </a></td><td>Swelling of the scrotum</td></tr><tr><td style=\"white-space:nowrap\">CONJUNCTIVITIS<a name=\"sti-syndrome-cs-CONJUNCTIVITIS\"> </a></td><td>Inflammation of the conjunctiva</td></tr><tr><td style=\"white-space:nowrap\">SENT_FOR_TESTING<a name=\"sti-syndrome-cs-SENT_FOR_TESTING\"> </a></td><td>Sent for testing</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"sti-syndrome-cs-OTHER\"> </a></td><td>Other syndrome/STI diagnosed</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs",
+  "version" : "0.1.0",
+  "name" : "STISyndromeCS",
+  "title" : "Syndrome/STI Codes",
+  "status" : "draft",
+  "date" : "2026-06-17T09:34:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Code system of Syndrome/STI codes.",
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "URETHRAL_DISCHARGE",
+    "display" : "Urethral discharge syndrome"
+  },
+  {
+    "code" : "VAGINAL_DISCHARGE",
+    "display" : "Vaginal discharge syndrome"
+  },
+  {
+    "code" : "LOWER_ABDOMINAL_PAIN",
+    "display" : "Lower abdominal pain"
+  },
+  {
+    "code" : "GENITAL_ULCER",
+    "display" : "Genital ulcer disease syndrome"
+  },
+  {
+    "code" : "SCROTAL_SWELLING",
+    "display" : "Swelling of the scrotum"
+  },
+  {
+    "code" : "CONJUNCTIVITIS",
+    "display" : "Inflammation of the conjunctiva"
+  },
+  {
+    "code" : "SENT_FOR_TESTING",
+    "display" : "Sent for testing"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other syndrome/STI diagnosed"
+  }]
+}

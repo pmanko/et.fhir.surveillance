@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/surveillance/CodeSystem/counselling-provided-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "counselling-provided-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem counselling-provided-cs</b></p><a name=\"counselling-provided-cs\"> </a><a name=\"hccounselling-provided-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/counselling-provided-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">hiv-positive<a name=\"counselling-provided-cs-hiv-positive\"> </a></td><td>HIV-positive counselling conducted</td></tr><tr><td style=\"white-space:nowrap\">hepb-positive<a name=\"counselling-provided-cs-hepb-positive\"> </a></td><td>Hepatitis B positive counselling conducted</td></tr><tr><td style=\"white-space:nowrap\">hepc-positive<a name=\"counselling-provided-cs-hepc-positive\"> </a></td><td>Hepatitis C positive counselling conducted</td></tr><tr><td style=\"white-space:nowrap\">syphilis<a name=\"counselling-provided-cs-syphilis\"> </a></td><td>Syphilis counselling, treatment and further testing</td></tr><tr><td style=\"white-space:nowrap\">art-linkage<a name=\"counselling-provided-cs-art-linkage\"> </a></td><td>Linked to enrolment in care and ART initiation</td></tr><tr><td style=\"white-space:nowrap\">vmmc<a name=\"counselling-provided-cs-vmmc\"> </a></td><td>VMMC counselling provided</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/surveillance/CodeSystem/counselling-provided-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CounsellingProvidedCS"] ; # 
+  fhir:title [ fhir:v "Counselling Provided"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-06-17T09:34:47+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:description [ fhir:v "Types of counselling provided to client"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "hiv-positive" ] ;
+     fhir:display [ fhir:v "HIV-positive counselling conducted" ]
+  ] [
+     fhir:code [ fhir:v "hepb-positive" ] ;
+     fhir:display [ fhir:v "Hepatitis B positive counselling conducted" ]
+  ] [
+     fhir:code [ fhir:v "hepc-positive" ] ;
+     fhir:display [ fhir:v "Hepatitis C positive counselling conducted" ]
+  ] [
+     fhir:code [ fhir:v "syphilis" ] ;
+     fhir:display [ fhir:v "Syphilis counselling, treatment and further testing" ]
+  ] [
+     fhir:code [ fhir:v "art-linkage" ] ;
+     fhir:display [ fhir:v "Linked to enrolment in care and ART initiation" ]
+  ] [
+     fhir:code [ fhir:v "vmmc" ] ;
+     fhir:display [ fhir:v "VMMC counselling provided" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

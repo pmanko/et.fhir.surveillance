@@ -1,0 +1,44 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "srh-integrated-services-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem srh-integrated-services-cs</b></p><a name=\"srh-integrated-services-cs\"> </a><a name=\"hcsrh-integrated-services-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">family-planning<a name=\"srh-integrated-services-cs-family-planning\"> </a></td><td>Contraception and family planning</td></tr><tr><td style=\"white-space:nowrap\">pregnancy-check<a name=\"srh-integrated-services-cs-pregnancy-check\"> </a></td><td>Check pregnancy status</td></tr><tr><td style=\"white-space:nowrap\">pmtct<a name=\"srh-integrated-services-cs-pmtct\"> </a></td><td>Prevention of mother-to-child transmission counselling</td></tr><tr><td style=\"white-space:nowrap\">cervical-cancer<a name=\"srh-integrated-services-cs-cervical-cancer\"> </a></td><td>Cervical cancer screening and treatment counselling</td></tr><tr><td style=\"white-space:nowrap\">sti-services<a name=\"srh-integrated-services-cs-sti-services\"> </a></td><td>STI testing and treatment services</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SRHIntegratedServicesCS"] ; # 
+  fhir:title [ fhir:v "Sexual and Reproductive Health Integrated Services"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-06-17T09:34:47+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:description [ fhir:v "Types of SRH integrated services provided"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "family-planning" ] ;
+     fhir:display [ fhir:v "Contraception and family planning" ]
+  ] [
+     fhir:code [ fhir:v "pregnancy-check" ] ;
+     fhir:display [ fhir:v "Check pregnancy status" ]
+  ] [
+     fhir:code [ fhir:v "pmtct" ] ;
+     fhir:display [ fhir:v "Prevention of mother-to-child transmission counselling" ]
+  ] [
+     fhir:code [ fhir:v "cervical-cancer" ] ;
+     fhir:display [ fhir:v "Cervical cancer screening and treatment counselling" ]
+  ] [
+     fhir:code [ fhir:v "sti-services" ] ;
+     fhir:display [ fhir:v "STI testing and treatment services" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

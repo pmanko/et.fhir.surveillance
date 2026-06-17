@@ -1,0 +1,211 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "ChlamydiaTrachomatisTestTypeCS",
+    "title" : "Chlamydia trachomatis Test Type Code System",
+    "description" : "Codes for Chlamydia trachomatis test types",
+    "uses" : {
+    },
+    "ValueSet-chlamydia-trachomatis-test-type-vs.html" : "Chlamydia trachomatis Test Type Value Set"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/counselling-provided-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CounsellingProvidedCS",
+    "title" : "Counselling Provided",
+    "description" : "Types of counselling provided to client",
+    "uses" : {
+    },
+    "ValueSet-counselling-provided-vs.html" : "Counselling Provided"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/follow-up-type-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FollowUpTypeCS",
+    "title" : "Follow-Up Type Codes",
+    "description" : "Code system of Follow-Up Type codes.",
+    "uses" : {
+    },
+    "ValueSet-follow-up-type-vs.html" : "Follow-Up Types"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "GonorrhoeaSpecimenTypeCS",
+    "title" : "Gonorrhoea Specimen Types",
+    "description" : "Code system of Gonorrhoea Specimen Types codes.",
+    "uses" : {
+    },
+    "ValueSet-gonorrhoea-specimen-type-vs.html" : "Gonorrhoea Specimen Type"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "GonorrhoeaTestResultCS",
+    "title" : "Gonorrhoea Test Result Codes",
+    "description" : "Code system of Gonorrhoea Test Result codes.",
+    "uses" : {
+    },
+    "ValueSet-gonorrhoea-test-result-vs.html" : "Gonorrhoea Test Result"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HSVTestTypeCS",
+    "title" : "Herpes Simplex Virus Test Type Code System",
+    "description" : "Codes for Herpes simplex virus (HSV) test types",
+    "uses" : {
+    },
+    "ValueSet-hsv-test-type-vs.html" : "Herpes Simplex Virus Test Type Value Set"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "IPVEnquiryResultCS",
+    "title" : "IPV Enquiry Result",
+    "description" : "Results of intimate partner violence enquiry",
+    "uses" : {
+    },
+    "ValueSet-ipv-enquiry-result-vs.html" : "IPV Enquiry Result"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "MycoplasmaGenitaliumTestTypeCS",
+    "title" : "Mycoplasma genitalium Test Type Code System",
+    "description" : "Codes for Mycoplasma genitalium test types",
+    "uses" : {
+    },
+    "ValueSet-mycoplasma-genitalium-test-type-vs.html" : "Mycoplasma genitalium Test Type Value Set"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "NeisseriaGonorrhoeaeTestTypeCS",
+    "title" : "Neisseria gonorrhoeae Test Type Code System",
+    "description" : "Codes for Neisseria gonorrhoeae test types",
+    "uses" : {
+    },
+    "ValueSet-neisseria-gonorrhoeae-test-type-vs.html" : "Neisseria gonorrhoeae Test Type Value Set"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SRHIntegratedServicesCS",
+    "title" : "Sexual and Reproductive Health Integrated Services",
+    "description" : "Types of SRH integrated services provided",
+    "uses" : {
+    },
+    "ValueSet-srh-integrated-services-vs.html" : "Sexual and Reproductive Health Integrated Services"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/sti-result-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "STIResultCS",
+    "title" : "STI Test Result CodeSystem",
+    "description" : "Codes for STI test results",
+    "uses" : {
+    },
+    "ValueSet-sti-result-vs.html" : "STI Test Result ValueSet"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "STISyndromeCS",
+    "title" : "Syndrome/STI Codes",
+    "description" : "Code system of Syndrome/STI codes.",
+    "uses" : {
+    },
+    "ValueSet-sti-syndrome-vs.html" : "Syndrome/STI Diagnosed"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/sti-test-type-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "STITestTypeCS",
+    "title" : "STI Test Types",
+    "description" : "Code system of STI Test Types codes.",
+    "uses" : {
+    },
+    "ValueSet-sti-test-type-vs.html" : "STI Tested For"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SyphilisConfirmatoryTestTypeCS",
+    "title" : "Confirmatory Syphilis Test Type CodeSystem",
+    "description" : "Codes for confirmatory syphilis test types",
+    "uses" : {
+    },
+    "ValueSet-syphilis-confirmatory-test-type-vs.html" : "Confirmatory Syphilis Test Type ValueSet"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SyphilisTestResultCS",
+    "title" : "Syphilis Test Result Codes",
+    "description" : "Code system of Syphilis Test Result codes.",
+    "uses" : {
+    },
+    "ValueSet-syphilis-test-result-vs.html" : "Syphilis Test Result"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SyphilisTestTypeCS",
+    "title" : "Syphilis Test Type Code System",
+    "description" : "Codes for syphilis test types",
+    "uses" : {
+    },
+    "ValueSet-syphilis-test-type-vs.html" : "Syphilis Test Type Value Set"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "TrichomonasVaginalisTestTypeCS",
+    "title" : "Trichomonas vaginalis Test Type Code System",
+    "description" : "Codes for Trichomonas vaginalis test types",
+    "uses" : {
+    },
+    "ValueSet-trichomonas-vaginalis-test-type-vs.html" : "Trichomonas vaginalis Test Type Value Set"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "VMMCAdverseEventSeverityCS",
+    "title" : "VMMC Adverse Event Severity Codes",
+    "description" : "Code system of VMMC Adverse Event Severity codes.",
+    "uses" : {
+    },
+    "ValueSet-vmmc-adverse-event-severity-vs.html" : "VMMC Adverse Event Severity"
+  },
+  {
+    "url" : "http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "VMMCAdverseEventTimingCS",
+    "title" : "Timing of Adverse Event",
+    "description" : "Code system of Timing of Adverse Event codes.",
+    "uses" : {
+    },
+    "ValueSet-vmmc-adverse-event-timing-vs.html" : "Timing of VMMC Adverse Event"
+  }]
+}

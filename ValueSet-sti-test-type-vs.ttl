@@ -1,0 +1,31 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/surveillance/ValueSet/sti-test-type-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "sti-test-type-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet sti-test-type-vs</b></p><a name=\"sti-test-type-vs\"> </a><a name=\"hcsti-test-type-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-sti-test-type-cs.html\"><code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/surveillance/ValueSet/sti-test-type-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "STITestTypeVS"] ; # 
+  fhir:title [ fhir:v "STI Tested For"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2026-06-17T09:34:47+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:description [ fhir:v "Value set of STI Tested For values."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

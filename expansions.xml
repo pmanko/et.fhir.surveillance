@@ -1,0 +1,3408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="4a61a632-ff73-4300-ac24-312f268227b1"/>
+  <meta>
+    <lastUpdated value="2026-06-17T09:34:47.203+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/chlamydia-trachomatis-test-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-chlamydia-trachomatis-test-type-cs.html">codesystem Chlamydia trachomatis Test Type Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs-naat"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-chlamydia-trachomatis-test-type-cs.html#chlamydia-trachomatis-test-type-cs-naat">naat</a>
+                </td>
+                <td>NAAT</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;naat&quot;, &quot;display&quot;: &quot;NAAT&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;naat&quot;&gt;&lt;display value=&quot;NAAT&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs-poc-test"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-chlamydia-trachomatis-test-type-cs.html#chlamydia-trachomatis-test-type-cs-poc-test">poc-test</a>
+                </td>
+                <td>POC Test</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;poc-test&quot;, &quot;display&quot;: &quot;POC Test&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;poc-test&quot;&gt;&lt;display value=&quot;POC Test&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs-culture"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-chlamydia-trachomatis-test-type-cs.html#chlamydia-trachomatis-test-type-cs-culture">culture</a>
+                </td>
+                <td>Culture</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;culture&quot;, &quot;display&quot;: &quot;Culture&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;culture&quot;&gt;&lt;display value=&quot;Culture&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs-elisa"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-chlamydia-trachomatis-test-type-cs.html#chlamydia-trachomatis-test-type-cs-elisa">elisa</a>
+                </td>
+                <td>ELISA</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;elisa&quot;, &quot;display&quot;: &quot;ELISA&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;elisa&quot;&gt;&lt;display value=&quot;ELISA&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs-other"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-chlamydia-trachomatis-test-type-cs.html#chlamydia-trachomatis-test-type-cs-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/chlamydia-trachomatis-test-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="ChlamydiaTrachomatisTestTypeVS"/>
+        <title value="Chlamydia trachomatis Test Type Value Set"/>
+        <status value="active"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:bc6c01b4-bc2c-4f43-a7cb-da4502bdc987"/>
+          <timestamp value="2026-06-17T09:37:37+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs"/>
+            <code value="naat"/>
+            <display value="NAAT"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs"/>
+            <code value="poc-test"/>
+            <display value="POC Test"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs"/>
+            <code value="culture"/>
+            <display value="Culture"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs"/>
+            <code value="elisa"/>
+            <display value="ELISA"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/counselling-provided-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-counselling-provided-cs.html">codesystem Counselling Provided v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/counselling-provided-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 6 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/counselling-provided-cs-hiv-positive"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/counselling-provided-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-counselling-provided-cs.html#counselling-provided-cs-hiv-positive">hiv-positive</a>
+                </td>
+                <td>HIV-positive counselling conducted</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/counselling-provided-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;hiv-positive&quot;, &quot;display&quot;: &quot;HIV-positive counselling conducted&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/counselling-provided-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;hiv-positive&quot;&gt;&lt;display value=&quot;HIV-positive counselling conducted&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/counselling-provided-cs-hepb-positive"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/counselling-provided-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-counselling-provided-cs.html#counselling-provided-cs-hepb-positive">hepb-positive</a>
+                </td>
+                <td>Hepatitis B positive counselling conducted</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/counselling-provided-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;hepb-positive&quot;, &quot;display&quot;: &quot;Hepatitis B positive counselling conducted&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/counselling-provided-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;hepb-positive&quot;&gt;&lt;display value=&quot;Hepatitis B positive counselling conducted&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/counselling-provided-cs-hepc-positive"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/counselling-provided-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-counselling-provided-cs.html#counselling-provided-cs-hepc-positive">hepc-positive</a>
+                </td>
+                <td>Hepatitis C positive counselling conducted</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/counselling-provided-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;hepc-positive&quot;, &quot;display&quot;: &quot;Hepatitis C positive counselling conducted&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/counselling-provided-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;hepc-positive&quot;&gt;&lt;display value=&quot;Hepatitis C positive counselling conducted&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/counselling-provided-cs-syphilis"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/counselling-provided-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-counselling-provided-cs.html#counselling-provided-cs-syphilis">syphilis</a>
+                </td>
+                <td>Syphilis counselling, treatment and further testing</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/counselling-provided-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;syphilis&quot;, &quot;display&quot;: &quot;Syphilis counselling, treatment and further testing&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/counselling-provided-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;syphilis&quot;&gt;&lt;display value=&quot;Syphilis counselling, treatment and further testing&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/counselling-provided-cs-art-linkage"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/counselling-provided-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-counselling-provided-cs.html#counselling-provided-cs-art-linkage">art-linkage</a>
+                </td>
+                <td>Linked to enrolment in care and ART initiation</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/counselling-provided-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;art-linkage&quot;, &quot;display&quot;: &quot;Linked to enrolment in care and ART initiation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/counselling-provided-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;art-linkage&quot;&gt;&lt;display value=&quot;Linked to enrolment in care and ART initiation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/counselling-provided-cs-vmmc"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/counselling-provided-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-counselling-provided-cs.html#counselling-provided-cs-vmmc">vmmc</a>
+                </td>
+                <td>VMMC counselling provided</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/counselling-provided-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vmmc&quot;, &quot;display&quot;: &quot;VMMC counselling provided&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/counselling-provided-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;vmmc&quot;&gt;&lt;display value=&quot;VMMC counselling provided&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/counselling-provided-vs"/>
+        <version value="0.1.0"/>
+        <name value="CounsellingProvidedVS"/>
+        <title value="Counselling Provided"/>
+        <status value="active"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:60c72049-705f-4fe6-8b88-32df9e883d0d"/>
+          <timestamp value="2026-06-17T09:37:39+00:00"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/counselling-provided-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/counselling-provided-cs"/>
+            <code value="hiv-positive"/>
+            <display value="HIV-positive counselling conducted"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/counselling-provided-cs"/>
+            <code value="hepb-positive"/>
+            <display value="Hepatitis B positive counselling conducted"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/counselling-provided-cs"/>
+            <code value="hepc-positive"/>
+            <display value="Hepatitis C positive counselling conducted"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/counselling-provided-cs"/>
+            <code value="syphilis"/>
+            <display value="Syphilis counselling, treatment and further testing"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/counselling-provided-cs"/>
+            <code value="art-linkage"/>
+            <display value="Linked to enrolment in care and ART initiation"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/counselling-provided-cs"/>
+            <code value="vmmc"/>
+            <display value="VMMC counselling provided"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/follow-up-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-follow-up-type-cs.html">codesystem Follow-Up Type Codes v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/follow-up-type-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/follow-up-type-cs-RETESTING"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/follow-up-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-follow-up-type-cs.html#follow-up-type-cs-RETESTING">RETESTING</a>
+                </td>
+                <td>Retesting for HIV</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/follow-up-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;RETESTING&quot;, &quot;display&quot;: &quot;Retesting for HIV&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/follow-up-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;RETESTING&quot;&gt;&lt;display value=&quot;Retesting for HIV&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/follow-up-type-cs-OTHER"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/follow-up-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-follow-up-type-cs.html#follow-up-type-cs-OTHER">OTHER</a>
+                </td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/follow-up-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;OTHER&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/follow-up-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;OTHER&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/follow-up-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="FollowUpTypeVS"/>
+        <title value="Follow-Up Types"/>
+        <status value="draft"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:b356e7f2-9612-4e44-9e70-32202e3df507"/>
+          <timestamp value="2026-06-17T09:37:39+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/follow-up-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/follow-up-type-cs"/>
+            <code value="RETESTING"/>
+            <display value="Retesting for HIV"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/follow-up-type-cs"/>
+            <code value="OTHER"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/gonorrhoea-specimen-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-gonorrhoea-specimen-type-cs.html">codesystem Gonorrhoea Specimen Types v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs-BLOOD"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-gonorrhoea-specimen-type-cs.html#gonorrhoea-specimen-type-cs-BLOOD">BLOOD</a>
+                </td>
+                <td>Blood</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;BLOOD&quot;, &quot;display&quot;: &quot;Blood&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;BLOOD&quot;&gt;&lt;display value=&quot;Blood&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs-CERVICAL_VAGINAL"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-gonorrhoea-specimen-type-cs.html#gonorrhoea-specimen-type-cs-CERVICAL_VAGINAL">CERVICAL_VAGINAL</a>
+                </td>
+                <td>Cervical or vaginal swab</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CERVICAL_VAGINAL&quot;, &quot;display&quot;: &quot;Cervical or vaginal swab&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CERVICAL_VAGINAL&quot;&gt;&lt;display value=&quot;Cervical or vaginal swab&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs-URETHRAL_PENILE"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-gonorrhoea-specimen-type-cs.html#gonorrhoea-specimen-type-cs-URETHRAL_PENILE">URETHRAL_PENILE</a>
+                </td>
+                <td>Urethral or penile swab</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;URETHRAL_PENILE&quot;, &quot;display&quot;: &quot;Urethral or penile swab&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;URETHRAL_PENILE&quot;&gt;&lt;display value=&quot;Urethral or penile swab&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs-RECTAL"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-gonorrhoea-specimen-type-cs.html#gonorrhoea-specimen-type-cs-RECTAL">RECTAL</a>
+                </td>
+                <td>Rectal swab</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;RECTAL&quot;, &quot;display&quot;: &quot;Rectal swab&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;RECTAL&quot;&gt;&lt;display value=&quot;Rectal swab&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs-OTHER"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-gonorrhoea-specimen-type-cs.html#gonorrhoea-specimen-type-cs-OTHER">OTHER</a>
+                </td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;OTHER&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;OTHER&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/gonorrhoea-specimen-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="GonorrhoeaSpecimenTypeVS"/>
+        <title value="Gonorrhoea Specimen Type"/>
+        <status value="draft"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:0ff9074f-79da-4e7f-b008-67ffb077d044"/>
+          <timestamp value="2026-06-17T09:37:40+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs"/>
+            <code value="BLOOD"/>
+            <display value="Blood"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs"/>
+            <code value="CERVICAL_VAGINAL"/>
+            <display value="Cervical or vaginal swab"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs"/>
+            <code value="URETHRAL_PENILE"/>
+            <display value="Urethral or penile swab"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs"/>
+            <code value="RECTAL"/>
+            <display value="Rectal swab"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs"/>
+            <code value="OTHER"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/gonorrhoea-test-result-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-gonorrhoea-test-result-cs.html">codesystem Gonorrhoea Test Result Codes v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs-POSITIVE"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-gonorrhoea-test-result-cs.html#gonorrhoea-test-result-cs-POSITIVE">POSITIVE</a>
+                </td>
+                <td>Positive</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;POSITIVE&quot;, &quot;display&quot;: &quot;Positive&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;POSITIVE&quot;&gt;&lt;display value=&quot;Positive&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs-NEGATIVE"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-gonorrhoea-test-result-cs.html#gonorrhoea-test-result-cs-NEGATIVE">NEGATIVE</a>
+                </td>
+                <td>Negative</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;NEGATIVE&quot;, &quot;display&quot;: &quot;Negative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;NEGATIVE&quot;&gt;&lt;display value=&quot;Negative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/gonorrhoea-test-result-vs"/>
+        <version value="0.1.0"/>
+        <name value="GonorrhoeaTestResultVS"/>
+        <title value="Gonorrhoea Test Result"/>
+        <status value="draft"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:699b5104-97ae-464f-99ff-2ad357444145"/>
+          <timestamp value="2026-06-17T09:37:40+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs"/>
+            <code value="POSITIVE"/>
+            <display value="Positive"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs"/>
+            <code value="NEGATIVE"/>
+            <display value="Negative"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/hsv-test-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-hsv-test-type-cs.html">codesystem Herpes Simplex Virus Test Type Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs-naat"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-hsv-test-type-cs.html#hsv-test-type-cs-naat">naat</a>
+                </td>
+                <td>NAAT</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;naat&quot;, &quot;display&quot;: &quot;NAAT&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;naat&quot;&gt;&lt;display value=&quot;NAAT&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs-antibody-test"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-hsv-test-type-cs.html#hsv-test-type-cs-antibody-test">antibody-test</a>
+                </td>
+                <td>Antibody test</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;antibody-test&quot;, &quot;display&quot;: &quot;Antibody test&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;antibody-test&quot;&gt;&lt;display value=&quot;Antibody test&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs-other"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-hsv-test-type-cs.html#hsv-test-type-cs-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/hsv-test-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="HSVTestTypeVS"/>
+        <title value="Herpes Simplex Virus Test Type Value Set"/>
+        <status value="active"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:3946d99f-c89e-4ae2-b0b5-91ba5fc5ffc4"/>
+          <timestamp value="2026-06-17T09:37:40+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs"/>
+            <code value="naat"/>
+            <display value="NAAT"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs"/>
+            <code value="antibody-test"/>
+            <display value="Antibody test"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/ipv-enquiry-result-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-ipv-enquiry-result-cs.html">codesystem IPV Enquiry Result v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs-treated"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ipv-enquiry-result-cs.html#ipv-enquiry-result-cs-treated">treated</a>
+                </td>
+                <td>Client received treatment and/or counselling as needed</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;treated&quot;, &quot;display&quot;: &quot;Client received treatment and/or counselling as needed&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;treated&quot;&gt;&lt;display value=&quot;Client received treatment and/or counselling as needed&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs-referred"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ipv-enquiry-result-cs.html#ipv-enquiry-result-cs-referred">referred</a>
+                </td>
+                <td>Client was referred</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;referred&quot;, &quot;display&quot;: &quot;Client was referred&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;referred&quot;&gt;&lt;display value=&quot;Client was referred&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs-no-action"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ipv-enquiry-result-cs.html#ipv-enquiry-result-cs-no-action">no-action</a>
+                </td>
+                <td>No action necessary</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;no-action&quot;, &quot;display&quot;: &quot;No action necessary&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;no-action&quot;&gt;&lt;display value=&quot;No action necessary&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs-other"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ipv-enquiry-result-cs.html#ipv-enquiry-result-cs-other">other</a>
+                </td>
+                <td>Other IPV result</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other IPV result&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other IPV result&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/ipv-enquiry-result-vs"/>
+        <version value="0.1.0"/>
+        <name value="IPVEnquiryResultVS"/>
+        <title value="IPV Enquiry Result"/>
+        <status value="draft"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:fbce7ba7-05f6-4b53-acfa-3a38c4368eed"/>
+          <timestamp value="2026-06-17T09:37:46+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs"/>
+            <code value="treated"/>
+            <display value="Client received treatment and/or counselling as needed"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs"/>
+            <code value="referred"/>
+            <display value="Client was referred"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs"/>
+            <code value="no-action"/>
+            <display value="No action necessary"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs"/>
+            <code value="other"/>
+            <display value="Other IPV result"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/mycoplasma-genitalium-test-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-mycoplasma-genitalium-test-type-cs.html">codesystem Mycoplasma genitalium Test Type Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs-naat"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-mycoplasma-genitalium-test-type-cs.html#mycoplasma-genitalium-test-type-cs-naat">naat</a>
+                </td>
+                <td>NAAT</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;naat&quot;, &quot;display&quot;: &quot;NAAT&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;naat&quot;&gt;&lt;display value=&quot;NAAT&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs-other"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-mycoplasma-genitalium-test-type-cs.html#mycoplasma-genitalium-test-type-cs-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/mycoplasma-genitalium-test-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="MycoplasmaGenitaliumTestTypeVS"/>
+        <title value="Mycoplasma genitalium Test Type Value Set"/>
+        <status value="active"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:780c075a-cc12-40d9-81e2-e934057d5072"/>
+          <timestamp value="2026-06-17T09:37:40+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs"/>
+            <code value="naat"/>
+            <display value="NAAT"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/neisseria-gonorrhoeae-test-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-neisseria-gonorrhoeae-test-type-cs.html">codesystem Neisseria gonorrhoeae Test Type Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs-urine"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-neisseria-gonorrhoeae-test-type-cs.html#neisseria-gonorrhoeae-test-type-cs-urine">urine</a>
+                </td>
+                <td>Urine</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;urine&quot;, &quot;display&quot;: &quot;Urine&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;urine&quot;&gt;&lt;display value=&quot;Urine&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs-naat"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-neisseria-gonorrhoeae-test-type-cs.html#neisseria-gonorrhoeae-test-type-cs-naat">naat</a>
+                </td>
+                <td>NAAT</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;naat&quot;, &quot;display&quot;: &quot;NAAT&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;naat&quot;&gt;&lt;display value=&quot;NAAT&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs-inconclusive"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-neisseria-gonorrhoeae-test-type-cs.html#neisseria-gonorrhoeae-test-type-cs-inconclusive">inconclusive</a>
+                </td>
+                <td>Inconclusive</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;inconclusive&quot;, &quot;display&quot;: &quot;Inconclusive&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;inconclusive&quot;&gt;&lt;display value=&quot;Inconclusive&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs-poc-test"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-neisseria-gonorrhoeae-test-type-cs.html#neisseria-gonorrhoeae-test-type-cs-poc-test">poc-test</a>
+                </td>
+                <td>POC Test</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;poc-test&quot;, &quot;display&quot;: &quot;POC Test&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;poc-test&quot;&gt;&lt;display value=&quot;POC Test&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs-culture"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-neisseria-gonorrhoeae-test-type-cs.html#neisseria-gonorrhoeae-test-type-cs-culture">culture</a>
+                </td>
+                <td>Culture</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;culture&quot;, &quot;display&quot;: &quot;Culture&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;culture&quot;&gt;&lt;display value=&quot;Culture&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs-microscopy"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-neisseria-gonorrhoeae-test-type-cs.html#neisseria-gonorrhoeae-test-type-cs-microscopy">microscopy</a>
+                </td>
+                <td>Microscopy</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;microscopy&quot;, &quot;display&quot;: &quot;Microscopy&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;microscopy&quot;&gt;&lt;display value=&quot;Microscopy&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs-other"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-neisseria-gonorrhoeae-test-type-cs.html#neisseria-gonorrhoeae-test-type-cs-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/neisseria-gonorrhoeae-test-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="NeisseriaGonorrhoeaeTestTypeVS"/>
+        <title value="Neisseria gonorrhoeae Test Type Value Set"/>
+        <status value="active"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:992278b4-17fb-4431-afc8-bc3c63a4c208"/>
+          <timestamp value="2026-06-17T09:37:41+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs"/>
+            <code value="urine"/>
+            <display value="Urine"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs"/>
+            <code value="naat"/>
+            <display value="NAAT"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs"/>
+            <code value="inconclusive"/>
+            <display value="Inconclusive"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs"/>
+            <code value="poc-test"/>
+            <display value="POC Test"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs"/>
+            <code value="culture"/>
+            <display value="Culture"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs"/>
+            <code value="microscopy"/>
+            <display value="Microscopy"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/srh-integrated-services-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-srh-integrated-services-cs.html">codesystem Sexual and Reproductive Health Integrated Services v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs-family-planning"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-srh-integrated-services-cs.html#srh-integrated-services-cs-family-planning">family-planning</a>
+                </td>
+                <td>Contraception and family planning</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;family-planning&quot;, &quot;display&quot;: &quot;Contraception and family planning&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;family-planning&quot;&gt;&lt;display value=&quot;Contraception and family planning&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs-pregnancy-check"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-srh-integrated-services-cs.html#srh-integrated-services-cs-pregnancy-check">pregnancy-check</a>
+                </td>
+                <td>Check pregnancy status</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;pregnancy-check&quot;, &quot;display&quot;: &quot;Check pregnancy status&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;pregnancy-check&quot;&gt;&lt;display value=&quot;Check pregnancy status&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs-pmtct"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-srh-integrated-services-cs.html#srh-integrated-services-cs-pmtct">pmtct</a>
+                </td>
+                <td>Prevention of mother-to-child transmission counselling</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;pmtct&quot;, &quot;display&quot;: &quot;Prevention of mother-to-child transmission counselling&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;pmtct&quot;&gt;&lt;display value=&quot;Prevention of mother-to-child transmission counselling&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs-cervical-cancer"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-srh-integrated-services-cs.html#srh-integrated-services-cs-cervical-cancer">cervical-cancer</a>
+                </td>
+                <td>Cervical cancer screening and treatment counselling</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;cervical-cancer&quot;, &quot;display&quot;: &quot;Cervical cancer screening and treatment counselling&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;cervical-cancer&quot;&gt;&lt;display value=&quot;Cervical cancer screening and treatment counselling&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs-sti-services"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-srh-integrated-services-cs.html#srh-integrated-services-cs-sti-services">sti-services</a>
+                </td>
+                <td>STI testing and treatment services</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;sti-services&quot;, &quot;display&quot;: &quot;STI testing and treatment services&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;sti-services&quot;&gt;&lt;display value=&quot;STI testing and treatment services&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/srh-integrated-services-vs"/>
+        <version value="0.1.0"/>
+        <name value="SRHIntegratedServicesVS"/>
+        <title value="Sexual and Reproductive Health Integrated Services"/>
+        <status value="active"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:c724577b-e375-4ad4-883a-f7e4de1082b5"/>
+          <timestamp value="2026-06-17T09:37:42+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs"/>
+            <code value="family-planning"/>
+            <display value="Contraception and family planning"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs"/>
+            <code value="pregnancy-check"/>
+            <display value="Check pregnancy status"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs"/>
+            <code value="pmtct"/>
+            <display value="Prevention of mother-to-child transmission counselling"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs"/>
+            <code value="cervical-cancer"/>
+            <display value="Cervical cancer screening and treatment counselling"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs"/>
+            <code value="sti-services"/>
+            <display value="STI testing and treatment services"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/sti-result-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-sti-result-cs.html">codesystem STI Test Result CodeSystem v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/sti-result-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-result-cs-positive"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-result-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-result-cs.html#sti-result-cs-positive">positive</a>
+                </td>
+                <td>Positive</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-result-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;positive&quot;, &quot;display&quot;: &quot;Positive&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-result-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;positive&quot;&gt;&lt;display value=&quot;Positive&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-result-cs-negative"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-result-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-result-cs.html#sti-result-cs-negative">negative</a>
+                </td>
+                <td>Negative</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-result-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;negative&quot;, &quot;display&quot;: &quot;Negative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-result-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;negative&quot;&gt;&lt;display value=&quot;Negative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-result-cs-inconclusive"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-result-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-result-cs.html#sti-result-cs-inconclusive">inconclusive</a>
+                </td>
+                <td>Inconclusive</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-result-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;inconclusive&quot;, &quot;display&quot;: &quot;Inconclusive&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-result-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;inconclusive&quot;&gt;&lt;display value=&quot;Inconclusive&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/sti-result-vs"/>
+        <version value="0.1.0"/>
+        <name value="STIResultVS"/>
+        <title value="STI Test Result ValueSet"/>
+        <status value="draft"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:6eb77e40-d8f1-46f0-bd76-7aae5aaeed32"/>
+          <timestamp value="2026-06-17T09:37:38+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/sti-result-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-result-cs"/>
+            <code value="positive"/>
+            <display value="Positive"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-result-cs"/>
+            <code value="negative"/>
+            <display value="Negative"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-result-cs"/>
+            <code value="inconclusive"/>
+            <display value="Inconclusive"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/sti-syndrome-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-sti-syndrome-cs.html">codesystem Syndrome/STI Codes v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 8 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs-URETHRAL_DISCHARGE"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-syndrome-cs.html#sti-syndrome-cs-URETHRAL_DISCHARGE">URETHRAL_DISCHARGE</a>
+                </td>
+                <td>Urethral discharge syndrome</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;URETHRAL_DISCHARGE&quot;, &quot;display&quot;: &quot;Urethral discharge syndrome&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;URETHRAL_DISCHARGE&quot;&gt;&lt;display value=&quot;Urethral discharge syndrome&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs-VAGINAL_DISCHARGE"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-syndrome-cs.html#sti-syndrome-cs-VAGINAL_DISCHARGE">VAGINAL_DISCHARGE</a>
+                </td>
+                <td>Vaginal discharge syndrome</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;VAGINAL_DISCHARGE&quot;, &quot;display&quot;: &quot;Vaginal discharge syndrome&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;VAGINAL_DISCHARGE&quot;&gt;&lt;display value=&quot;Vaginal discharge syndrome&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs-LOWER_ABDOMINAL_PAIN"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-syndrome-cs.html#sti-syndrome-cs-LOWER_ABDOMINAL_PAIN">LOWER_ABDOMINAL_PAIN</a>
+                </td>
+                <td>Lower abdominal pain</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LOWER_ABDOMINAL_PAIN&quot;, &quot;display&quot;: &quot;Lower abdominal pain&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LOWER_ABDOMINAL_PAIN&quot;&gt;&lt;display value=&quot;Lower abdominal pain&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs-GENITAL_ULCER"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-syndrome-cs.html#sti-syndrome-cs-GENITAL_ULCER">GENITAL_ULCER</a>
+                </td>
+                <td>Genital ulcer disease syndrome</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;GENITAL_ULCER&quot;, &quot;display&quot;: &quot;Genital ulcer disease syndrome&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;GENITAL_ULCER&quot;&gt;&lt;display value=&quot;Genital ulcer disease syndrome&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs-SCROTAL_SWELLING"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-syndrome-cs.html#sti-syndrome-cs-SCROTAL_SWELLING">SCROTAL_SWELLING</a>
+                </td>
+                <td>Swelling of the scrotum</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;SCROTAL_SWELLING&quot;, &quot;display&quot;: &quot;Swelling of the scrotum&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;SCROTAL_SWELLING&quot;&gt;&lt;display value=&quot;Swelling of the scrotum&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs-CONJUNCTIVITIS"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-syndrome-cs.html#sti-syndrome-cs-CONJUNCTIVITIS">CONJUNCTIVITIS</a>
+                </td>
+                <td>Inflammation of the conjunctiva</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CONJUNCTIVITIS&quot;, &quot;display&quot;: &quot;Inflammation of the conjunctiva&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CONJUNCTIVITIS&quot;&gt;&lt;display value=&quot;Inflammation of the conjunctiva&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs-SENT_FOR_TESTING"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-syndrome-cs.html#sti-syndrome-cs-SENT_FOR_TESTING">SENT_FOR_TESTING</a>
+                </td>
+                <td>Sent for testing</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;SENT_FOR_TESTING&quot;, &quot;display&quot;: &quot;Sent for testing&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;SENT_FOR_TESTING&quot;&gt;&lt;display value=&quot;Sent for testing&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs-OTHER"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-syndrome-cs.html#sti-syndrome-cs-OTHER">OTHER</a>
+                </td>
+                <td>Other syndrome/STI diagnosed</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;OTHER&quot;, &quot;display&quot;: &quot;Other syndrome/STI diagnosed&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;OTHER&quot;&gt;&lt;display value=&quot;Other syndrome/STI diagnosed&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/sti-syndrome-vs"/>
+        <version value="0.1.0"/>
+        <name value="STISyndromeVS"/>
+        <title value="Syndrome/STI Diagnosed"/>
+        <status value="draft"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:daaf7727-24f0-4a71-ba25-0e420eadd57c"/>
+          <timestamp value="2026-06-17T09:37:42+00:00"/>
+          <total value="8"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs"/>
+            <code value="URETHRAL_DISCHARGE"/>
+            <display value="Urethral discharge syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs"/>
+            <code value="VAGINAL_DISCHARGE"/>
+            <display value="Vaginal discharge syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs"/>
+            <code value="LOWER_ABDOMINAL_PAIN"/>
+            <display value="Lower abdominal pain"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs"/>
+            <code value="GENITAL_ULCER"/>
+            <display value="Genital ulcer disease syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs"/>
+            <code value="SCROTAL_SWELLING"/>
+            <display value="Swelling of the scrotum"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs"/>
+            <code value="CONJUNCTIVITIS"/>
+            <display value="Inflammation of the conjunctiva"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs"/>
+            <code value="SENT_FOR_TESTING"/>
+            <display value="Sent for testing"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs"/>
+            <code value="OTHER"/>
+            <display value="Other syndrome/STI diagnosed"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/sti-test-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-sti-test-type-cs.html">codesystem STI Test Types v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 9 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-test-type-cs-NG"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-test-type-cs.html#sti-test-type-cs-NG">NG</a>
+                </td>
+                <td>Neisseria gonorrhoeae</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;NG&quot;, &quot;display&quot;: &quot;Neisseria gonorrhoeae&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;NG&quot;&gt;&lt;display value=&quot;Neisseria gonorrhoeae&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-test-type-cs-CT"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-test-type-cs.html#sti-test-type-cs-CT">CT</a>
+                </td>
+                <td>Chlamydia trachomatis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CT&quot;, &quot;display&quot;: &quot;Chlamydia trachomatis&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CT&quot;&gt;&lt;display value=&quot;Chlamydia trachomatis&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-test-type-cs-TV"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-test-type-cs.html#sti-test-type-cs-TV">TV</a>
+                </td>
+                <td>Trichomonas vaginalis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;TV&quot;, &quot;display&quot;: &quot;Trichomonas vaginalis&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;TV&quot;&gt;&lt;display value=&quot;Trichomonas vaginalis&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-test-type-cs-SYPHILIS"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-test-type-cs.html#sti-test-type-cs-SYPHILIS">SYPHILIS</a>
+                </td>
+                <td>Syphilis (Treponema pallidum)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;SYPHILIS&quot;, &quot;display&quot;: &quot;Syphilis (Treponema pallidum)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;SYPHILIS&quot;&gt;&lt;display value=&quot;Syphilis (Treponema pallidum)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-test-type-cs-HSV"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-test-type-cs.html#sti-test-type-cs-HSV">HSV</a>
+                </td>
+                <td>Herpes simplex virus (HSV1, HSV2)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;HSV&quot;, &quot;display&quot;: &quot;Herpes simplex virus (HSV1, HSV2)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;HSV&quot;&gt;&lt;display value=&quot;Herpes simplex virus (HSV1, HSV2)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-test-type-cs-MG"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-test-type-cs.html#sti-test-type-cs-MG">MG</a>
+                </td>
+                <td>Mycoplasma genitalium</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MG&quot;, &quot;display&quot;: &quot;Mycoplasma genitalium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MG&quot;&gt;&lt;display value=&quot;Mycoplasma genitalium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-test-type-cs-MPOX"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-test-type-cs.html#sti-test-type-cs-MPOX">MPOX</a>
+                </td>
+                <td>Mpox</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MPOX&quot;, &quot;display&quot;: &quot;Mpox&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MPOX&quot;&gt;&lt;display value=&quot;Mpox&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-test-type-cs-HEPB"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-test-type-cs.html#sti-test-type-cs-HEPB">HEPB</a>
+                </td>
+                <td>Hepatitis B</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;HEPB&quot;, &quot;display&quot;: &quot;Hepatitis B&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;HEPB&quot;&gt;&lt;display value=&quot;Hepatitis B&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/sti-test-type-cs-OTHER"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-sti-test-type-cs.html#sti-test-type-cs-OTHER">OTHER</a>
+                </td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;OTHER&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/sti-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;OTHER&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/sti-test-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="STITestTypeVS"/>
+        <title value="STI Tested For"/>
+        <status value="draft"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:fd6a0bad-d047-4c7d-b5ea-b3aef452d6c8"/>
+          <timestamp value="2026-06-17T09:37:43+00:00"/>
+          <total value="9"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"/>
+            <code value="NG"/>
+            <display value="Neisseria gonorrhoeae"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"/>
+            <code value="CT"/>
+            <display value="Chlamydia trachomatis"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"/>
+            <code value="TV"/>
+            <display value="Trichomonas vaginalis"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"/>
+            <code value="SYPHILIS"/>
+            <display value="Syphilis (Treponema pallidum)"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"/>
+            <code value="HSV"/>
+            <display value="Herpes simplex virus (HSV1, HSV2)"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"/>
+            <code value="MG"/>
+            <display value="Mycoplasma genitalium"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"/>
+            <code value="MPOX"/>
+            <display value="Mpox"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"/>
+            <code value="HEPB"/>
+            <display value="Hepatitis B"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"/>
+            <code value="OTHER"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/syphilis-confirmatory-test-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-syphilis-confirmatory-test-type-cs.html">codesystem Confirmatory Syphilis Test Type CodeSystem v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs-treponemal"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-confirmatory-test-type-cs.html#syphilis-confirmatory-test-type-cs-treponemal">treponemal</a>
+                </td>
+                <td>Treponemal</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;treponemal&quot;, &quot;display&quot;: &quot;Treponemal&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;treponemal&quot;&gt;&lt;display value=&quot;Treponemal&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs-non-treponemal"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-confirmatory-test-type-cs.html#syphilis-confirmatory-test-type-cs-non-treponemal">non-treponemal</a>
+                </td>
+                <td>Non-treponemal</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;non-treponemal&quot;, &quot;display&quot;: &quot;Non-treponemal&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;non-treponemal&quot;&gt;&lt;display value=&quot;Non-treponemal&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs-poc"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-confirmatory-test-type-cs.html#syphilis-confirmatory-test-type-cs-poc">poc</a>
+                </td>
+                <td>POC Test</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;poc&quot;, &quot;display&quot;: &quot;POC Test&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;poc&quot;&gt;&lt;display value=&quot;POC Test&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs-naat"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-confirmatory-test-type-cs.html#syphilis-confirmatory-test-type-cs-naat">naat</a>
+                </td>
+                <td>NAAT</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;naat&quot;, &quot;display&quot;: &quot;NAAT&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;naat&quot;&gt;&lt;display value=&quot;NAAT&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs-other"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-confirmatory-test-type-cs.html#syphilis-confirmatory-test-type-cs-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/syphilis-confirmatory-test-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="SyphilisConfirmatoryTestTypeVS"/>
+        <title value="Confirmatory Syphilis Test Type ValueSet"/>
+        <status value="draft"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:866a2c18-deff-4096-a335-9ff836e11cf7"/>
+          <timestamp value="2026-06-17T09:37:38+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs"/>
+            <code value="treponemal"/>
+            <display value="Treponemal"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs"/>
+            <code value="non-treponemal"/>
+            <display value="Non-treponemal"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs"/>
+            <code value="poc"/>
+            <display value="POC Test"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs"/>
+            <code value="naat"/>
+            <display value="NAAT"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/syphilis-test-result-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-syphilis-test-result-cs.html">codesystem Syphilis Test Result Codes v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs-POSITIVE"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-test-result-cs.html#syphilis-test-result-cs-POSITIVE">POSITIVE</a>
+                </td>
+                <td>Positive</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;POSITIVE&quot;, &quot;display&quot;: &quot;Positive&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;POSITIVE&quot;&gt;&lt;display value=&quot;Positive&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs-NEGATIVE"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-test-result-cs.html#syphilis-test-result-cs-NEGATIVE">NEGATIVE</a>
+                </td>
+                <td>Negative</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;NEGATIVE&quot;, &quot;display&quot;: &quot;Negative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;NEGATIVE&quot;&gt;&lt;display value=&quot;Negative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs-INCONCLUSIVE"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-test-result-cs.html#syphilis-test-result-cs-INCONCLUSIVE">INCONCLUSIVE</a>
+                </td>
+                <td>Inconclusive</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;INCONCLUSIVE&quot;, &quot;display&quot;: &quot;Inconclusive&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;INCONCLUSIVE&quot;&gt;&lt;display value=&quot;Inconclusive&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/syphilis-test-result-vs"/>
+        <version value="0.1.0"/>
+        <name value="SyphilisTestResultVS"/>
+        <title value="Syphilis Test Result"/>
+        <status value="draft"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:96bd86b3-e652-4c15-90f2-8595778a21a5"/>
+          <timestamp value="2026-06-17T09:37:43+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs"/>
+            <code value="POSITIVE"/>
+            <display value="Positive"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs"/>
+            <code value="NEGATIVE"/>
+            <display value="Negative"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs"/>
+            <code value="INCONCLUSIVE"/>
+            <display value="Inconclusive"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/syphilis-test-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-syphilis-test-type-cs.html">codesystem Syphilis Test Type Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs-treponemal"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-test-type-cs.html#syphilis-test-type-cs-treponemal">treponemal</a>
+                </td>
+                <td>Treponemal</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;treponemal&quot;, &quot;display&quot;: &quot;Treponemal&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;treponemal&quot;&gt;&lt;display value=&quot;Treponemal&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs-non-treponemal"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-test-type-cs.html#syphilis-test-type-cs-non-treponemal">non-treponemal</a>
+                </td>
+                <td>Non-treponemal</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;non-treponemal&quot;, &quot;display&quot;: &quot;Non-treponemal&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;non-treponemal&quot;&gt;&lt;display value=&quot;Non-treponemal&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs-poc-test"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-test-type-cs.html#syphilis-test-type-cs-poc-test">poc-test</a>
+                </td>
+                <td>POC Test</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;poc-test&quot;, &quot;display&quot;: &quot;POC Test&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;poc-test&quot;&gt;&lt;display value=&quot;POC Test&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs-naat"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-test-type-cs.html#syphilis-test-type-cs-naat">naat</a>
+                </td>
+                <td>NAAT</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;naat&quot;, &quot;display&quot;: &quot;NAAT&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;naat&quot;&gt;&lt;display value=&quot;NAAT&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs-other"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-syphilis-test-type-cs.html#syphilis-test-type-cs-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/syphilis-test-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="SyphilisTestTypeVS"/>
+        <title value="Syphilis Test Type Value Set"/>
+        <status value="active"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:8d8d3058-0982-4edb-b82e-7b718731809f"/>
+          <timestamp value="2026-06-17T09:37:43+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs"/>
+            <code value="treponemal"/>
+            <display value="Treponemal"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs"/>
+            <code value="non-treponemal"/>
+            <display value="Non-treponemal"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs"/>
+            <code value="poc-test"/>
+            <display value="POC Test"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs"/>
+            <code value="naat"/>
+            <display value="NAAT"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/trichomonas-vaginalis-test-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-trichomonas-vaginalis-test-type-cs.html">codesystem Trichomonas vaginalis Test Type Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs-poc-test"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-trichomonas-vaginalis-test-type-cs.html#trichomonas-vaginalis-test-type-cs-poc-test">poc-test</a>
+                </td>
+                <td>POC Test</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;poc-test&quot;, &quot;display&quot;: &quot;POC Test&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;poc-test&quot;&gt;&lt;display value=&quot;POC Test&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs-culture"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-trichomonas-vaginalis-test-type-cs.html#trichomonas-vaginalis-test-type-cs-culture">culture</a>
+                </td>
+                <td>Culture</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;culture&quot;, &quot;display&quot;: &quot;Culture&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;culture&quot;&gt;&lt;display value=&quot;Culture&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs-microscopy"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-trichomonas-vaginalis-test-type-cs.html#trichomonas-vaginalis-test-type-cs-microscopy">microscopy</a>
+                </td>
+                <td>Microscopy</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;microscopy&quot;, &quot;display&quot;: &quot;Microscopy&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;microscopy&quot;&gt;&lt;display value=&quot;Microscopy&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs-other"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-trichomonas-vaginalis-test-type-cs.html#trichomonas-vaginalis-test-type-cs-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/trichomonas-vaginalis-test-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="TrichomonasVaginalisTestTypeVS"/>
+        <title value="Trichomonas vaginalis Test Type Value Set"/>
+        <status value="active"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:229b56ad-05db-48a1-97ec-34f82a2371e5"/>
+          <timestamp value="2026-06-17T09:37:44+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs"/>
+            <code value="poc-test"/>
+            <display value="POC Test"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs"/>
+            <code value="culture"/>
+            <display value="Culture"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs"/>
+            <code value="microscopy"/>
+            <display value="Microscopy"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/vmmc-adverse-event-severity-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-vmmc-adverse-event-severity-cs.html">codesystem VMMC Adverse Event Severity Codes v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs-MODERATE"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vmmc-adverse-event-severity-cs.html#vmmc-adverse-event-severity-cs-MODERATE">MODERATE</a>
+                </td>
+                <td>Moderate</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MODERATE&quot;, &quot;display&quot;: &quot;Moderate&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MODERATE&quot;&gt;&lt;display value=&quot;Moderate&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs-SEVERE"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vmmc-adverse-event-severity-cs.html#vmmc-adverse-event-severity-cs-SEVERE">SEVERE</a>
+                </td>
+                <td>Severe</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;SEVERE&quot;, &quot;display&quot;: &quot;Severe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;SEVERE&quot;&gt;&lt;display value=&quot;Severe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/vmmc-adverse-event-severity-vs"/>
+        <version value="0.1.0"/>
+        <name value="VMMCAdverseEventSeverityVS"/>
+        <title value="VMMC Adverse Event Severity"/>
+        <status value="draft"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:13c308a8-0e36-4b41-8585-fdb62476bc48"/>
+          <timestamp value="2026-06-17T09:37:44+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs"/>
+            <code value="MODERATE"/>
+            <display value="Moderate"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs"/>
+            <code value="SEVERE"/>
+            <display value="Severe"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/surveillance/ValueSet/vmmc-adverse-event-timing-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-vmmc-adverse-event-timing-cs.html">codesystem Timing of Adverse Event v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs-INTRAOPERATIVE"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vmmc-adverse-event-timing-cs.html#vmmc-adverse-event-timing-cs-INTRAOPERATIVE">INTRAOPERATIVE</a>
+                </td>
+                <td>Intraoperative</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;INTRAOPERATIVE&quot;, &quot;display&quot;: &quot;Intraoperative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;INTRAOPERATIVE&quot;&gt;&lt;display value=&quot;Intraoperative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs-POSTOPERATIVE"> </a>
+                  <code>http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vmmc-adverse-event-timing-cs.html#vmmc-adverse-event-timing-cs-POSTOPERATIVE">POSTOPERATIVE</a>
+                </td>
+                <td>Postoperative</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;POSTOPERATIVE&quot;, &quot;display&quot;: &quot;Postoperative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;POSTOPERATIVE&quot;&gt;&lt;display value=&quot;Postoperative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/surveillance/ValueSet/vmmc-adverse-event-timing-vs"/>
+        <version value="0.1.0"/>
+        <name value="VMMCAdverseEventTimingVS"/>
+        <title value="Timing of VMMC Adverse Event"/>
+        <status value="draft"/>
+        <date value="2026-06-17T09:34:47+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:c94af421-11c2-4ec9-b58c-6d53002dce7b"/>
+          <timestamp value="2026-06-17T09:37:44+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs"/>
+            <code value="INTRAOPERATIVE"/>
+            <display value="Intraoperative"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs"/>
+            <code value="POSTOPERATIVE"/>
+            <display value="Postoperative"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

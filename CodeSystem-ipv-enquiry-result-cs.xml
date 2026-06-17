@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ipv-enquiry-result-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ipv-enquiry-result-cs</b></p><a name="ipv-enquiry-result-cs"> </a><a name="hcipv-enquiry-result-cs"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">treated<a name="ipv-enquiry-result-cs-treated"> </a></td><td>Client received treatment and/or counselling as needed</td></tr><tr><td style="white-space:nowrap">referred<a name="ipv-enquiry-result-cs-referred"> </a></td><td>Client was referred</td></tr><tr><td style="white-space:nowrap">no-action<a name="ipv-enquiry-result-cs-no-action"> </a></td><td>No action necessary</td></tr><tr><td style="white-space:nowrap">other<a name="ipv-enquiry-result-cs-other"> </a></td><td>Other IPV result</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs"/>
+  <version value="0.1.0"/>
+  <name value="IPVEnquiryResultCS"/>
+  <title value="IPV Enquiry Result"/>
+  <status value="active"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Results of intimate partner violence enquiry"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="treated"/>
+    <display value="Client received treatment and/or counselling as needed"/>
+  </concept>
+  <concept>
+    <code value="referred"/>
+    <display value="Client was referred"/>
+  </concept>
+  <concept>
+    <code value="no-action"/>
+    <display value="No action necessary"/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other IPV result"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="community-entry-point-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet community-entry-point-vs</b></p><a name="community-entry-point-vs"> </a><a name="hccommunity-entry-point-vs"> </a><ul><li>Include all codes defined in <code>http://fhir.et/core/CodeSystem/community-entry-point-cs</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span></li></ul></div>
+  </text>
+  <url value="http://fhir.et/surveillance/ValueSet/community-entry-point-vs"/>
+  <version value="0.1.0"/>
+  <name value="CommunityEntryPointValueSet"/>
+  <title value="community Entry Point ValueSet"/>
+  <status value="draft"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="ValueSet for community entry points"/>
+  <compose>
+    <include>
+      <system value="http://fhir.et/core/CodeSystem/community-entry-point-cs"/>
+    </include>
+  </compose>
+</ValueSet>

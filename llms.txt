@@ -1,0 +1,91 @@
+# et.fhir.surveillance#0.1.0: Ethiopia Surveillance IG (sandbox demo subset)
+
+## Pages
+
+* [Overview](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Chlamydia trachomatis Test Type Code System](CodeSystem-chlamydia-trachomatis-test-type-cs.md)
+* [Counselling Provided](CodeSystem-counselling-provided-cs.md)
+* [Follow-Up Type Codes](CodeSystem-follow-up-type-cs.md)
+* [Gonorrhoea Specimen Types](CodeSystem-gonorrhoea-specimen-type-cs.md)
+* [Gonorrhoea Test Result Codes](CodeSystem-gonorrhoea-test-result-cs.md)
+* [Herpes Simplex Virus Test Type Code System](CodeSystem-hsv-test-type-cs.md)
+* [IPV Enquiry Result](CodeSystem-ipv-enquiry-result-cs.md)
+* [Mycoplasma genitalium Test Type Code System](CodeSystem-mycoplasma-genitalium-test-type-cs.md)
+* [Neisseria gonorrhoeae Test Type Code System](CodeSystem-neisseria-gonorrhoeae-test-type-cs.md)
+* [Sexual and Reproductive Health Integrated Services](CodeSystem-srh-integrated-services-cs.md)
+* [STI Test Result CodeSystem](CodeSystem-sti-result-cs.md)
+* [Syndrome/STI Codes](CodeSystem-sti-syndrome-cs.md)
+* [STI Test Types](CodeSystem-sti-test-type-cs.md)
+* [Confirmatory Syphilis Test Type CodeSystem](CodeSystem-syphilis-confirmatory-test-type-cs.md)
+* [Syphilis Test Result Codes](CodeSystem-syphilis-test-result-cs.md)
+* [Syphilis Test Type Code System](CodeSystem-syphilis-test-type-cs.md)
+* [Trichomonas vaginalis Test Type Code System](CodeSystem-trichomonas-vaginalis-test-type-cs.md)
+* [VMMC Adverse Event Severity Codes](CodeSystem-vmmc-adverse-event-severity-cs.md)
+* [Timing of Adverse Event](CodeSystem-vmmc-adverse-event-timing-cs.md)
+
+### ValueSets
+
+* [Chlamydia trachomatis Test Type Value Set](ValueSet-chlamydia-trachomatis-test-type-vs.md)
+* [community Entry Point ValueSet](ValueSet-community-entry-point-vs.md)
+* [Counselling Provided](ValueSet-counselling-provided-vs.md)
+* [Facility Entry Point ValueSet](ValueSet-facility-entry-point-vs.md)
+* [Follow-Up Types](ValueSet-follow-up-type-vs.md)
+* [Gonorrhoea Specimen Type](ValueSet-gonorrhoea-specimen-type-vs.md)
+* [Gonorrhoea Test Result](ValueSet-gonorrhoea-test-result-vs.md)
+* [Herpes Simplex Virus Test Type Value Set](ValueSet-hsv-test-type-vs.md)
+* [IPV Enquiry Result](ValueSet-ipv-enquiry-result-vs.md)
+* [Mycoplasma genitalium Test Type Value Set](ValueSet-mycoplasma-genitalium-test-type-vs.md)
+* [Neisseria gonorrhoeae Test Type Value Set](ValueSet-neisseria-gonorrhoeae-test-type-vs.md)
+* [Sexual and Reproductive Health Integrated Services](ValueSet-srh-integrated-services-vs.md)
+* [STI Test Result ValueSet](ValueSet-sti-result-vs.md)
+* [Syndrome/STI Diagnosed](ValueSet-sti-syndrome-vs.md)
+* [STI Tested For](ValueSet-sti-test-type-vs.md)
+* [Confirmatory Syphilis Test Type ValueSet](ValueSet-syphilis-confirmatory-test-type-vs.md)
+* [Syphilis Test Result](ValueSet-syphilis-test-result-vs.md)
+* [Syphilis Test Type Value Set](ValueSet-syphilis-test-type-vs.md)
+* [Trichomonas vaginalis Test Type Value Set](ValueSet-trichomonas-vaginalis-test-type-vs.md)
+* [VMMC Adverse Event Severity](ValueSet-vmmc-adverse-event-severity-vs.md)
+* [Timing of VMMC Adverse Event](ValueSet-vmmc-adverse-event-timing-vs.md)
+
+### Resource Profiles
+
+* [Chlamydia trachomatis Test Type Observation](StructureDefinition-chlamydia-trachomatis-test-type-observation.md)
+* [Confirmatory STI Test Result Observation](StructureDefinition-confirmatory-sti-test-result-observation.md)
+* [Confirmatory Syphilis Test Observation](StructureDefinition-confirmatory-syphilis-test-observation.md)
+* [Counselling Provided](StructureDefinition-counselling-provided.md)
+* [Type of Follow-Up](StructureDefinition-follow-up-type-observation.md)
+* [Gonorrhoea Testing and Treatment](StructureDefinition-gonorrhoea-testing-observation.md)
+* [Herpes Simplex Virus (HSV) Test Type Observation](StructureDefinition-hsv-test-type-observation.md)
+* [Clinical Enquiry for Intimate Partner Violence (IPV)](StructureDefinition-ipv-clinical-enquiry.md)
+* [Mycoplasma genitalium Test Type Observation](StructureDefinition-mycoplasma-genitalium-test-type-observation.md)
+* [Neisseria gonorrhoeae Test Type Observation](StructureDefinition-neisseria-gonorrhoeae-test-type-observation.md)
+* [Pregnancy Status (Boolean)](StructureDefinition-pregnancy-status-observation.md)
+* [Sexual and Reproductive Health Integrated Services](StructureDefinition-srh-integrated-services.md)
+* [STI Test Result Observation](StructureDefinition-sti-result-observation.md)
+* [Syndrome/STI Diagnosed](StructureDefinition-sti-syndrome-observation.md)
+* [STI Testing and Diagnosis](StructureDefinition-sti-testing-observation.md)
+* [Syphilis Test Type Observation](StructureDefinition-syphilis-test-type-observation.md)
+* [Syphilis Testing and Treatment](StructureDefinition-syphilis-testing-treatment-observation.md)
+* [Trichomonas vaginalis Test Type Observation](StructureDefinition-trichomonas-vaginalis-test-type-observation.md)
+* [VMMC Adverse Events](StructureDefinition-vmmc-adverse-event-observation.md)
+* [VMMC Procedure Date](StructureDefinition-vmmc-procedure-date-observation.md)
+* [VMMC Procedure](StructureDefinition-vmmc-procedure-observation.md)
+
+### Extensions
+
+* [Consent to Receive Family Planning Follow-up Messages](StructureDefinition-FPFollowUpMsgConsent.md)
+* [cachment Area](StructureDefinition-cachment-area.md)
+* [Community Entry Point](StructureDefinition-community-entry-point.md)
+* [ConfirmedSite](StructureDefinition-confirmed-site.md)
+* [Consent to be Contacted](StructureDefinition-consent-to-be-contacted.md)
+* [Referred through partner services](StructureDefinition-partner-services-referral.md)
+
+### ImplementationGuides
+
+* [Ethiopia Surveillance IG (sandbox demo subset)](index.md)

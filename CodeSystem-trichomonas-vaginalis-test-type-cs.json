@@ -1,0 +1,34 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "trichomonas-vaginalis-test-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem trichomonas-vaginalis-test-type-cs</b></p><a name=\"trichomonas-vaginalis-test-type-cs\"> </a><a name=\"hctrichomonas-vaginalis-test-type-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">poc-test<a name=\"trichomonas-vaginalis-test-type-cs-poc-test\"> </a></td><td>POC Test</td></tr><tr><td style=\"white-space:nowrap\">culture<a name=\"trichomonas-vaginalis-test-type-cs-culture\"> </a></td><td>Culture</td></tr><tr><td style=\"white-space:nowrap\">microscopy<a name=\"trichomonas-vaginalis-test-type-cs-microscopy\"> </a></td><td>Microscopy</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"trichomonas-vaginalis-test-type-cs-other\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs",
+  "version" : "0.1.0",
+  "name" : "TrichomonasVaginalisTestTypeCS",
+  "title" : "Trichomonas vaginalis Test Type Code System",
+  "status" : "active",
+  "date" : "2026-06-17T09:34:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Codes for Trichomonas vaginalis test types",
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "poc-test",
+    "display" : "POC Test"
+  },
+  {
+    "code" : "culture",
+    "display" : "Culture"
+  },
+  {
+    "code" : "microscopy",
+    "display" : "Microscopy"
+  },
+  {
+    "code" : "other",
+    "display" : "Other"
+  }]
+}

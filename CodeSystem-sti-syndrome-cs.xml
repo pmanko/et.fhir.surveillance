@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="sti-syndrome-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem sti-syndrome-cs</b></p><a name="sti-syndrome-cs"> </a><a name="hcsti-syndrome-cs"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">URETHRAL_DISCHARGE<a name="sti-syndrome-cs-URETHRAL_DISCHARGE"> </a></td><td>Urethral discharge syndrome</td></tr><tr><td style="white-space:nowrap">VAGINAL_DISCHARGE<a name="sti-syndrome-cs-VAGINAL_DISCHARGE"> </a></td><td>Vaginal discharge syndrome</td></tr><tr><td style="white-space:nowrap">LOWER_ABDOMINAL_PAIN<a name="sti-syndrome-cs-LOWER_ABDOMINAL_PAIN"> </a></td><td>Lower abdominal pain</td></tr><tr><td style="white-space:nowrap">GENITAL_ULCER<a name="sti-syndrome-cs-GENITAL_ULCER"> </a></td><td>Genital ulcer disease syndrome</td></tr><tr><td style="white-space:nowrap">SCROTAL_SWELLING<a name="sti-syndrome-cs-SCROTAL_SWELLING"> </a></td><td>Swelling of the scrotum</td></tr><tr><td style="white-space:nowrap">CONJUNCTIVITIS<a name="sti-syndrome-cs-CONJUNCTIVITIS"> </a></td><td>Inflammation of the conjunctiva</td></tr><tr><td style="white-space:nowrap">SENT_FOR_TESTING<a name="sti-syndrome-cs-SENT_FOR_TESTING"> </a></td><td>Sent for testing</td></tr><tr><td style="white-space:nowrap">OTHER<a name="sti-syndrome-cs-OTHER"> </a></td><td>Other syndrome/STI diagnosed</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs"/>
+  <version value="0.1.0"/>
+  <name value="STISyndromeCS"/>
+  <title value="Syndrome/STI Codes"/>
+  <status value="draft"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Code system of Syndrome/STI codes."/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="URETHRAL_DISCHARGE"/>
+    <display value="Urethral discharge syndrome"/>
+  </concept>
+  <concept>
+    <code value="VAGINAL_DISCHARGE"/>
+    <display value="Vaginal discharge syndrome"/>
+  </concept>
+  <concept>
+    <code value="LOWER_ABDOMINAL_PAIN"/>
+    <display value="Lower abdominal pain"/>
+  </concept>
+  <concept>
+    <code value="GENITAL_ULCER"/>
+    <display value="Genital ulcer disease syndrome"/>
+  </concept>
+  <concept>
+    <code value="SCROTAL_SWELLING"/>
+    <display value="Swelling of the scrotum"/>
+  </concept>
+  <concept>
+    <code value="CONJUNCTIVITIS"/>
+    <display value="Inflammation of the conjunctiva"/>
+  </concept>
+  <concept>
+    <code value="SENT_FOR_TESTING"/>
+    <display value="Sent for testing"/>
+  </concept>
+  <concept>
+    <code value="OTHER"/>
+    <display value="Other syndrome/STI diagnosed"/>
+  </concept>
+</CodeSystem>

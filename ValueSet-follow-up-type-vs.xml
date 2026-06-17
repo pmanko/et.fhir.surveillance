@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="follow-up-type-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet follow-up-type-vs</b></p><a name="follow-up-type-vs"> </a><a name="hcfollow-up-type-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-follow-up-type-cs.html"><code>http://fhir.et/surveillance/CodeSystem/follow-up-type-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://fhir.et/surveillance/ValueSet/follow-up-type-vs"/>
+  <version value="0.1.0"/>
+  <name value="FollowUpTypeVS"/>
+  <title value="Follow-Up Types"/>
+  <status value="draft"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Value set of Follow-Up Types values."/>
+  <compose>
+    <include>
+      <system value="http://fhir.et/surveillance/CodeSystem/follow-up-type-cs"/>
+    </include>
+  </compose>
+</ValueSet>

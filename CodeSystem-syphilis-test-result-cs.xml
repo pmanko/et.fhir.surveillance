@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="syphilis-test-result-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem syphilis-test-result-cs</b></p><a name="syphilis-test-result-cs"> </a><a name="hcsyphilis-test-result-cs"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">POSITIVE<a name="syphilis-test-result-cs-POSITIVE"> </a></td><td>Positive</td></tr><tr><td style="white-space:nowrap">NEGATIVE<a name="syphilis-test-result-cs-NEGATIVE"> </a></td><td>Negative</td></tr><tr><td style="white-space:nowrap">INCONCLUSIVE<a name="syphilis-test-result-cs-INCONCLUSIVE"> </a></td><td>Inconclusive</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs"/>
+  <version value="0.1.0"/>
+  <name value="SyphilisTestResultCS"/>
+  <title value="Syphilis Test Result Codes"/>
+  <status value="draft"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Code system of Syphilis Test Result codes."/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="POSITIVE"/>
+    <display value="Positive"/>
+  </concept>
+  <concept>
+    <code value="NEGATIVE"/>
+    <display value="Negative"/>
+  </concept>
+  <concept>
+    <code value="INCONCLUSIVE"/>
+    <display value="Inconclusive"/>
+  </concept>
+</CodeSystem>

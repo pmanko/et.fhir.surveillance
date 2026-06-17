@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="facility-entry-point-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet facility-entry-point-vs</b></p><a name="facility-entry-point-vs"> </a><a name="hcfacility-entry-point-vs"> </a><ul><li>Include all codes defined in <code>http://fhir.et/core/CodeSystem/facility-entry-point</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span></li></ul></div>
+  </text>
+  <url value="http://fhir.et/surveillance/ValueSet/facility-entry-point-vs"/>
+  <version value="0.1.0"/>
+  <name value="FacilityEntryPointVS"/>
+  <title value="Facility Entry Point ValueSet"/>
+  <status value="draft"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="ValueSet for facility entry points"/>
+  <compose>
+    <include>
+      <system value="http://fhir.et/core/CodeSystem/facility-entry-point"/>
+    </include>
+  </compose>
+</ValueSet>

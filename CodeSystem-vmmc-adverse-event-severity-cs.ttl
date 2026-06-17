@@ -1,0 +1,35 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "vmmc-adverse-event-severity-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem vmmc-adverse-event-severity-cs</b></p><a name=\"vmmc-adverse-event-severity-cs\"> </a><a name=\"hcvmmc-adverse-event-severity-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">MODERATE<a name=\"vmmc-adverse-event-severity-cs-MODERATE\"> </a></td><td>Moderate</td></tr><tr><td style=\"white-space:nowrap\">SEVERE<a name=\"vmmc-adverse-event-severity-cs-SEVERE\"> </a></td><td>Severe</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "VMMCAdverseEventSeverityCS"] ; # 
+  fhir:title [ fhir:v "VMMC Adverse Event Severity Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2026-06-17T09:34:47+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:description [ fhir:v "Code system of VMMC Adverse Event Severity codes."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "MODERATE" ] ;
+     fhir:display [ fhir:v "Moderate" ]
+  ] [
+     fhir:code [ fhir:v "SEVERE" ] ;
+     fhir:display [ fhir:v "Severe" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

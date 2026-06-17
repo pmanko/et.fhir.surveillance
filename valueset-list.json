@@ -1,0 +1,191 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.et/surveillance/ValueSet/chlamydia-trachomatis-test-type-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "ChlamydiaTrachomatisTestTypeVS",
+    "title" : "Chlamydia trachomatis Test Type Value Set",
+    "description" : "Allowed values for Chlamydia trachomatis test types",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/chlamydia-trachomatis-test-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/community-entry-point-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "CommunityEntryPointValueSet",
+    "title" : "community Entry Point ValueSet",
+    "description" : "ValueSet for community entry points",
+    "systems" : ["http://fhir.et/core/CodeSystem/community-entry-point-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/counselling-provided-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CounsellingProvidedVS",
+    "title" : "Counselling Provided",
+    "description" : "Value set of Counselling Provided values.",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/counselling-provided-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/facility-entry-point-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FacilityEntryPointVS",
+    "title" : "Facility Entry Point ValueSet",
+    "description" : "ValueSet for facility entry points",
+    "systems" : ["http://fhir.et/core/CodeSystem/facility-entry-point"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/follow-up-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FollowUpTypeVS",
+    "title" : "Follow-Up Types",
+    "description" : "Value set of Follow-Up Types values.",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/follow-up-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/gonorrhoea-specimen-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "GonorrhoeaSpecimenTypeVS",
+    "title" : "Gonorrhoea Specimen Type",
+    "description" : "Value set of Gonorrhoea Specimen Type values.",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/gonorrhoea-specimen-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/gonorrhoea-test-result-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "GonorrhoeaTestResultVS",
+    "title" : "Gonorrhoea Test Result",
+    "description" : "Value set of Gonorrhoea Test Result values.",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/gonorrhoea-test-result-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/hsv-test-type-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HSVTestTypeVS",
+    "title" : "Herpes Simplex Virus Test Type Value Set",
+    "description" : "Allowed values for Herpes simplex virus (HSV) test types",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/hsv-test-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/ipv-enquiry-result-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IPVEnquiryResultVS",
+    "title" : "IPV Enquiry Result",
+    "description" : "Value set of IPV Enquiry Result values.",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/mycoplasma-genitalium-test-type-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "MycoplasmaGenitaliumTestTypeVS",
+    "title" : "Mycoplasma genitalium Test Type Value Set",
+    "description" : "Allowed values for Mycoplasma genitalium test types",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/neisseria-gonorrhoeae-test-type-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "NeisseriaGonorrhoeaeTestTypeVS",
+    "title" : "Neisseria gonorrhoeae Test Type Value Set",
+    "description" : "Allowed values for Neisseria gonorrhoeae test types",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/srh-integrated-services-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SRHIntegratedServicesVS",
+    "title" : "Sexual and Reproductive Health Integrated Services",
+    "description" : "Value set of Sexual and Reproductive Health Integrated Services values.",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/srh-integrated-services-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/sti-result-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "STIResultVS",
+    "title" : "STI Test Result ValueSet",
+    "description" : "Value set for STI test results",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/sti-result-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/sti-syndrome-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "STISyndromeVS",
+    "title" : "Syndrome/STI Diagnosed",
+    "description" : "Value set of Syndrome/STI Diagnosed values.",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/sti-test-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "STITestTypeVS",
+    "title" : "STI Tested For",
+    "description" : "Value set of STI Tested For values.",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/syphilis-confirmatory-test-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SyphilisConfirmatoryTestTypeVS",
+    "title" : "Confirmatory Syphilis Test Type ValueSet",
+    "description" : "Value set for confirmatory syphilis test types",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/syphilis-test-result-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SyphilisTestResultVS",
+    "title" : "Syphilis Test Result",
+    "description" : "Value set of Syphilis Test Result values.",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/syphilis-test-result-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/syphilis-test-type-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SyphilisTestTypeVS",
+    "title" : "Syphilis Test Type Value Set",
+    "description" : "Allowed syphilis test type values",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/syphilis-test-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/trichomonas-vaginalis-test-type-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "TrichomonasVaginalisTestTypeVS",
+    "title" : "Trichomonas vaginalis Test Type Value Set",
+    "description" : "Allowed values for Trichomonas vaginalis test types",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/vmmc-adverse-event-severity-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "VMMCAdverseEventSeverityVS",
+    "title" : "VMMC Adverse Event Severity",
+    "description" : "Value set of VMMC Adverse Event Severity values.",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-severity-cs"]
+  },
+  {
+    "url" : "http://fhir.et/surveillance/ValueSet/vmmc-adverse-event-timing-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "VMMCAdverseEventTimingVS",
+    "title" : "Timing of VMMC Adverse Event",
+    "description" : "Value set of Timing of VMMC Adverse Event values.",
+    "systems" : ["http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs"]
+  }]
+}

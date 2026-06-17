@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="follow-up-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem follow-up-type-cs</b></p><a name="follow-up-type-cs"> </a><a name="hcfollow-up-type-cs"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/follow-up-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">RETESTING<a name="follow-up-type-cs-RETESTING"> </a></td><td>Retesting for HIV</td></tr><tr><td style="white-space:nowrap">OTHER<a name="follow-up-type-cs-OTHER"> </a></td><td>Other</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/surveillance/CodeSystem/follow-up-type-cs"/>
+  <version value="0.1.0"/>
+  <name value="FollowUpTypeCS"/>
+  <title value="Follow-Up Type Codes"/>
+  <status value="draft"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Code system of Follow-Up Type codes."/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="RETESTING"/>
+    <display value="Retesting for HIV"/>
+  </concept>
+  <concept>
+    <code value="OTHER"/>
+    <display value="Other"/>
+  </concept>
+</CodeSystem>

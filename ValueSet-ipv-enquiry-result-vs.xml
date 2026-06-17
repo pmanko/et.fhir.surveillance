@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ipv-enquiry-result-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ipv-enquiry-result-vs</b></p><a name="ipv-enquiry-result-vs"> </a><a name="hcipv-enquiry-result-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-ipv-enquiry-result-cs.html"><code>http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://fhir.et/surveillance/ValueSet/ipv-enquiry-result-vs"/>
+  <version value="0.1.0"/>
+  <name value="IPVEnquiryResultVS"/>
+  <title value="IPV Enquiry Result"/>
+  <status value="draft"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Value set of IPV Enquiry Result values."/>
+  <compose>
+    <include>
+      <system value="http://fhir.et/surveillance/CodeSystem/ipv-enquiry-result-cs"/>
+    </include>
+  </compose>
+</ValueSet>

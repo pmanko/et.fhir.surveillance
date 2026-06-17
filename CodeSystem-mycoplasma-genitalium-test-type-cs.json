@@ -1,0 +1,26 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mycoplasma-genitalium-test-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mycoplasma-genitalium-test-type-cs</b></p><a name=\"mycoplasma-genitalium-test-type-cs\"> </a><a name=\"hcmycoplasma-genitalium-test-type-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">naat<a name=\"mycoplasma-genitalium-test-type-cs-naat\"> </a></td><td>NAAT</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"mycoplasma-genitalium-test-type-cs-other\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs",
+  "version" : "0.1.0",
+  "name" : "MycoplasmaGenitaliumTestTypeCS",
+  "title" : "Mycoplasma genitalium Test Type Code System",
+  "status" : "active",
+  "date" : "2026-06-17T09:34:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Codes for Mycoplasma genitalium test types",
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "naat",
+    "display" : "NAAT"
+  },
+  {
+    "code" : "other",
+    "display" : "Other"
+  }]
+}

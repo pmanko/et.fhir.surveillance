@@ -1,0 +1,54 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "sti-test-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sti-test-type-cs</b></p><a name=\"sti-test-type-cs\"> </a><a name=\"hcsti-test-type-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">NG<a name=\"sti-test-type-cs-NG\"> </a></td><td>Neisseria gonorrhoeae</td></tr><tr><td style=\"white-space:nowrap\">CT<a name=\"sti-test-type-cs-CT\"> </a></td><td>Chlamydia trachomatis</td></tr><tr><td style=\"white-space:nowrap\">TV<a name=\"sti-test-type-cs-TV\"> </a></td><td>Trichomonas vaginalis</td></tr><tr><td style=\"white-space:nowrap\">SYPHILIS<a name=\"sti-test-type-cs-SYPHILIS\"> </a></td><td>Syphilis (Treponema pallidum)</td></tr><tr><td style=\"white-space:nowrap\">HSV<a name=\"sti-test-type-cs-HSV\"> </a></td><td>Herpes simplex virus (HSV1, HSV2)</td></tr><tr><td style=\"white-space:nowrap\">MG<a name=\"sti-test-type-cs-MG\"> </a></td><td>Mycoplasma genitalium</td></tr><tr><td style=\"white-space:nowrap\">MPOX<a name=\"sti-test-type-cs-MPOX\"> </a></td><td>Mpox</td></tr><tr><td style=\"white-space:nowrap\">HEPB<a name=\"sti-test-type-cs-HEPB\"> </a></td><td>Hepatitis B</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"sti-test-type-cs-OTHER\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/surveillance/CodeSystem/sti-test-type-cs",
+  "version" : "0.1.0",
+  "name" : "STITestTypeCS",
+  "title" : "STI Test Types",
+  "status" : "draft",
+  "date" : "2026-06-17T09:34:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Code system of STI Test Types codes.",
+  "content" : "complete",
+  "count" : 9,
+  "concept" : [{
+    "code" : "NG",
+    "display" : "Neisseria gonorrhoeae"
+  },
+  {
+    "code" : "CT",
+    "display" : "Chlamydia trachomatis"
+  },
+  {
+    "code" : "TV",
+    "display" : "Trichomonas vaginalis"
+  },
+  {
+    "code" : "SYPHILIS",
+    "display" : "Syphilis (Treponema pallidum)"
+  },
+  {
+    "code" : "HSV",
+    "display" : "Herpes simplex virus (HSV1, HSV2)"
+  },
+  {
+    "code" : "MG",
+    "display" : "Mycoplasma genitalium"
+  },
+  {
+    "code" : "MPOX",
+    "display" : "Mpox"
+  },
+  {
+    "code" : "HEPB",
+    "display" : "Hepatitis B"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  }]
+}

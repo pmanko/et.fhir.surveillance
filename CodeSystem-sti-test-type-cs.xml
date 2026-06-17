@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="sti-test-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem sti-test-type-cs</b></p><a name="sti-test-type-cs"> </a><a name="hcsti-test-type-cs"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">NG<a name="sti-test-type-cs-NG"> </a></td><td>Neisseria gonorrhoeae</td></tr><tr><td style="white-space:nowrap">CT<a name="sti-test-type-cs-CT"> </a></td><td>Chlamydia trachomatis</td></tr><tr><td style="white-space:nowrap">TV<a name="sti-test-type-cs-TV"> </a></td><td>Trichomonas vaginalis</td></tr><tr><td style="white-space:nowrap">SYPHILIS<a name="sti-test-type-cs-SYPHILIS"> </a></td><td>Syphilis (Treponema pallidum)</td></tr><tr><td style="white-space:nowrap">HSV<a name="sti-test-type-cs-HSV"> </a></td><td>Herpes simplex virus (HSV1, HSV2)</td></tr><tr><td style="white-space:nowrap">MG<a name="sti-test-type-cs-MG"> </a></td><td>Mycoplasma genitalium</td></tr><tr><td style="white-space:nowrap">MPOX<a name="sti-test-type-cs-MPOX"> </a></td><td>Mpox</td></tr><tr><td style="white-space:nowrap">HEPB<a name="sti-test-type-cs-HEPB"> </a></td><td>Hepatitis B</td></tr><tr><td style="white-space:nowrap">OTHER<a name="sti-test-type-cs-OTHER"> </a></td><td>Other</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"/>
+  <version value="0.1.0"/>
+  <name value="STITestTypeCS"/>
+  <title value="STI Test Types"/>
+  <status value="draft"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Code system of STI Test Types codes."/>
+  <content value="complete"/>
+  <count value="9"/>
+  <concept>
+    <code value="NG"/>
+    <display value="Neisseria gonorrhoeae"/>
+  </concept>
+  <concept>
+    <code value="CT"/>
+    <display value="Chlamydia trachomatis"/>
+  </concept>
+  <concept>
+    <code value="TV"/>
+    <display value="Trichomonas vaginalis"/>
+  </concept>
+  <concept>
+    <code value="SYPHILIS"/>
+    <display value="Syphilis (Treponema pallidum)"/>
+  </concept>
+  <concept>
+    <code value="HSV"/>
+    <display value="Herpes simplex virus (HSV1, HSV2)"/>
+  </concept>
+  <concept>
+    <code value="MG"/>
+    <display value="Mycoplasma genitalium"/>
+  </concept>
+  <concept>
+    <code value="MPOX"/>
+    <display value="Mpox"/>
+  </concept>
+  <concept>
+    <code value="HEPB"/>
+    <display value="Hepatitis B"/>
+  </concept>
+  <concept>
+    <code value="OTHER"/>
+    <display value="Other"/>
+  </concept>
+</CodeSystem>

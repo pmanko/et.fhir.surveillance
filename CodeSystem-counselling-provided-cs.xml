@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="counselling-provided-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem counselling-provided-cs</b></p><a name="counselling-provided-cs"> </a><a name="hccounselling-provided-cs"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/counselling-provided-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">hiv-positive<a name="counselling-provided-cs-hiv-positive"> </a></td><td>HIV-positive counselling conducted</td></tr><tr><td style="white-space:nowrap">hepb-positive<a name="counselling-provided-cs-hepb-positive"> </a></td><td>Hepatitis B positive counselling conducted</td></tr><tr><td style="white-space:nowrap">hepc-positive<a name="counselling-provided-cs-hepc-positive"> </a></td><td>Hepatitis C positive counselling conducted</td></tr><tr><td style="white-space:nowrap">syphilis<a name="counselling-provided-cs-syphilis"> </a></td><td>Syphilis counselling, treatment and further testing</td></tr><tr><td style="white-space:nowrap">art-linkage<a name="counselling-provided-cs-art-linkage"> </a></td><td>Linked to enrolment in care and ART initiation</td></tr><tr><td style="white-space:nowrap">vmmc<a name="counselling-provided-cs-vmmc"> </a></td><td>VMMC counselling provided</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/surveillance/CodeSystem/counselling-provided-cs"/>
+  <version value="0.1.0"/>
+  <name value="CounsellingProvidedCS"/>
+  <title value="Counselling Provided"/>
+  <status value="active"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Types of counselling provided to client"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="hiv-positive"/>
+    <display value="HIV-positive counselling conducted"/>
+  </concept>
+  <concept>
+    <code value="hepb-positive"/>
+    <display value="Hepatitis B positive counselling conducted"/>
+  </concept>
+  <concept>
+    <code value="hepc-positive"/>
+    <display value="Hepatitis C positive counselling conducted"/>
+  </concept>
+  <concept>
+    <code value="syphilis"/>
+    <display value="Syphilis counselling, treatment and further testing"/>
+  </concept>
+  <concept>
+    <code value="art-linkage"/>
+    <display value="Linked to enrolment in care and ART initiation"/>
+  </concept>
+  <concept>
+    <code value="vmmc"/>
+    <display value="VMMC counselling provided"/>
+  </concept>
+</CodeSystem>

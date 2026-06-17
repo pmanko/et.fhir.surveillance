@@ -1,0 +1,277 @@
+ETSurveillance : Validation Results
+=========================================
+
+err = 0, warn = 100, info = 32
+IG Publisher Version: 2.2.9
+Generated Wed Jun 17 09:39:05 UTC 2026. FHIR version 4.0.1 for et.fhir.surveillance#0.1.0 (canonical = http://fhir.et/surveillance)
+ Build Errors : 0 / 5 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-chlamydia-trachomatis-test-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-counselling-provided-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-follow-up-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-gonorrhoea-specimen-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-gonorrhoea-test-result-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hsv-test-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-ipv-enquiry-result-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-mycoplasma-genitalium-test-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-neisseria-gonorrhoeae-test-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-srh-integrated-services-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-sti-result-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-sti-syndrome-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-sti-test-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-syphilis-confirmatory-test-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-syphilis-test-result-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-syphilis-test-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-trichomonas-vaginalis-test-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-vmmc-adverse-event-severity-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-vmmc-adverse-event-timing-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-et.fhir.surveillance : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-FPFollowUpMsgConsent : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-cachment-area : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-chlamydia-trachomatis-test-type-observation : 0 / 1 / 4
+ /github/workspace/fsh-generated/resources/StructureDefinition-community-entry-point : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-confirmatory-sti-test-result-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-confirmatory-syphilis-test-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-confirmed-site : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-consent-to-be-contacted : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-counselling-provided : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-follow-up-type-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-gonorrhoea-testing-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hsv-test-type-observation : 0 / 1 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-ipv-clinical-enquiry : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-mycoplasma-genitalium-test-type-observation : 0 / 1 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-neisseria-gonorrhoeae-test-type-observation : 0 / 1 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-services-referral : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-pregnancy-status-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-srh-integrated-services : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-sti-result-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-sti-syndrome-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-sti-testing-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-syphilis-test-type-observation : 0 / 1 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-syphilis-testing-treatment-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-trichomonas-vaginalis-test-type-observation : 0 / 1 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-vmmc-adverse-event-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-vmmc-procedure-date-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-vmmc-procedure-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-chlamydia-trachomatis-test-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-community-entry-point-vs : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-counselling-provided-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-facility-entry-point-vs : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-follow-up-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-gonorrhoea-specimen-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-gonorrhoea-test-result-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hsv-test-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ipv-enquiry-result-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-mycoplasma-genitalium-test-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-neisseria-gonorrhoeae-test-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-srh-integrated-services-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-sti-result-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-sti-syndrome-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-sti-test-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-syphilis-confirmatory-test-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-syphilis-test-result-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-syphilis-test-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-trichomonas-vaginalis-test-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vmmc-adverse-event-severity-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vmmc-adverse-event-timing-vs : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/confirmed-site.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-chlamydia-trachomatis-test-type-cs.json ==
+INFORMATION: CodeSystem/chlamydia-trachomatis-test-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/chlamydia-trachomatis-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/chlamydia-trachomatis-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-counselling-provided-cs.json ==
+INFORMATION: CodeSystem/counselling-provided-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/counselling-provided-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/counselling-provided-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-follow-up-type-cs.json ==
+INFORMATION: CodeSystem/follow-up-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/follow-up-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/follow-up-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-gonorrhoea-specimen-type-cs.json ==
+INFORMATION: CodeSystem/gonorrhoea-specimen-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/gonorrhoea-specimen-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/gonorrhoea-specimen-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-gonorrhoea-test-result-cs.json ==
+INFORMATION: CodeSystem/gonorrhoea-test-result-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/gonorrhoea-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/gonorrhoea-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hsv-test-type-cs.json ==
+INFORMATION: CodeSystem/hsv-test-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hsv-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hsv-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-ipv-enquiry-result-cs.json ==
+INFORMATION: CodeSystem/ipv-enquiry-result-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/ipv-enquiry-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/ipv-enquiry-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mycoplasma-genitalium-test-type-cs.json ==
+INFORMATION: CodeSystem/mycoplasma-genitalium-test-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/mycoplasma-genitalium-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/mycoplasma-genitalium-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-neisseria-gonorrhoeae-test-type-cs.json ==
+INFORMATION: CodeSystem/neisseria-gonorrhoeae-test-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/neisseria-gonorrhoeae-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/neisseria-gonorrhoeae-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-srh-integrated-services-cs.json ==
+INFORMATION: CodeSystem/srh-integrated-services-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/srh-integrated-services-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/srh-integrated-services-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-sti-result-cs.json ==
+INFORMATION: CodeSystem/sti-result-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/sti-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/sti-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-sti-syndrome-cs.json ==
+INFORMATION: CodeSystem/sti-syndrome-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/sti-syndrome-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/sti-syndrome-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-sti-test-type-cs.json ==
+INFORMATION: CodeSystem/sti-test-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/sti-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/sti-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-syphilis-confirmatory-test-type-cs.json ==
+INFORMATION: CodeSystem/syphilis-confirmatory-test-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/syphilis-confirmatory-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/syphilis-confirmatory-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-syphilis-test-result-cs.json ==
+INFORMATION: CodeSystem/syphilis-test-result-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/syphilis-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/syphilis-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-syphilis-test-type-cs.json ==
+INFORMATION: CodeSystem/syphilis-test-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/syphilis-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/syphilis-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-trichomonas-vaginalis-test-type-cs.json ==
+INFORMATION: CodeSystem/trichomonas-vaginalis-test-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/trichomonas-vaginalis-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/trichomonas-vaginalis-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-vmmc-adverse-event-severity-cs.json ==
+INFORMATION: CodeSystem/vmmc-adverse-event-severity-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/vmmc-adverse-event-severity-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/vmmc-adverse-event-severity-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-vmmc-adverse-event-timing-cs.json ==
+INFORMATION: CodeSystem/vmmc-adverse-event-timing-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/vmmc-adverse-event-timing-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/vmmc-adverse-event-timing-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-et.fhir.surveillance.json ==
+== fsh-generated/resources/StructureDefinition-FPFollowUpMsgConsent.json ==
+WARNING: StructureDefinition/FPFollowUpMsgConsent: StructureDefinition.context[0]: Review the extension type for FPFollowUpMsgConsent: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/FPFollowUpMsgConsent'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-cachment-area.json ==
+WARNING: StructureDefinition/cachment-area: StructureDefinition.context[0]: Review the extension type for cachment-area: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/cachment-area'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-chlamydia-trachomatis-test-type-observation.json ==
+INFORMATION: StructureDefinition/chlamydia-trachomatis-test-type-observation: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+INFORMATION: StructureDefinition/chlamydia-trachomatis-test-type-observation: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/chlamydia-trachomatis-test-type-observation: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/chlamydia-trachomatis-test-type-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-community-entry-point.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/community-entry-point'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-confirmatory-sti-test-result-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/confirmatory-sti-test-result-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-confirmatory-syphilis-test-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/confirmatory-syphilis-test-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-confirmed-site.json ==
+WARNING: StructureDefinition/confirmed-site: StructureDefinition.context[0]: Review the extension type for confirmed-site: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/confirmed-site'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-consent-to-be-contacted.json ==
+WARNING: StructureDefinition/consent-to-be-contacted: StructureDefinition.context[0]: Review the extension type for consent-to-be-contacted: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/consent-to-be-contacted'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-counselling-provided.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/counselling-provided'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-follow-up-type-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/follow-up-type-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-gonorrhoea-testing-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/gonorrhoea-testing-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hsv-test-type-observation.json ==
+INFORMATION: StructureDefinition/hsv-test-type-observation: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/hsv-test-type-observation: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/hsv-test-type-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ipv-clinical-enquiry.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/ipv-clinical-enquiry'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-mycoplasma-genitalium-test-type-observation.json ==
+INFORMATION: StructureDefinition/mycoplasma-genitalium-test-type-observation: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/mycoplasma-genitalium-test-type-observation: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/mycoplasma-genitalium-test-type-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-neisseria-gonorrhoeae-test-type-observation.json ==
+INFORMATION: StructureDefinition/neisseria-gonorrhoeae-test-type-observation: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/neisseria-gonorrhoeae-test-type-observation: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/neisseria-gonorrhoeae-test-type-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-services-referral.json ==
+WARNING: StructureDefinition/partner-services-referral: StructureDefinition.context[0]: Review the extension type for partner-services-referral: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/partner-services-referral'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-pregnancy-status-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/pregnancy-status-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-srh-integrated-services.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/srh-integrated-services'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-sti-result-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/sti-result-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-sti-syndrome-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/sti-syndrome-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-sti-testing-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/sti-testing-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-syphilis-test-type-observation.json ==
+INFORMATION: StructureDefinition/syphilis-test-type-observation: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/syphilis-test-type-observation: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/syphilis-test-type-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-syphilis-testing-treatment-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/syphilis-testing-treatment-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-trichomonas-vaginalis-test-type-observation.json ==
+INFORMATION: StructureDefinition/trichomonas-vaginalis-test-type-observation: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/trichomonas-vaginalis-test-type-observation: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/trichomonas-vaginalis-test-type-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-vmmc-adverse-event-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/vmmc-adverse-event-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-vmmc-procedure-date-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/vmmc-procedure-date-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-vmmc-procedure-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/surveillance/StructureDefinition/vmmc-procedure-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-chlamydia-trachomatis-test-type-vs.json ==
+WARNING: ValueSet/chlamydia-trachomatis-test-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-community-entry-point-vs.json ==
+WARNING: ValueSet/community-entry-point-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://fhir.et/core/CodeSystem/community-entry-point-cs'
+WARNING: ValueSet/community-entry-point-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'community-entry-point-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://fhir.et/core/CodeSystem/community-entry-point-cs' could not be found, so the value set cannot be expanded
+== fsh-generated/resources/ValueSet-counselling-provided-vs.json ==
+WARNING: ValueSet/counselling-provided-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-facility-entry-point-vs.json ==
+WARNING: ValueSet/facility-entry-point-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://fhir.et/core/CodeSystem/facility-entry-point'
+WARNING: ValueSet/facility-entry-point-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'facility-entry-point-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://fhir.et/core/CodeSystem/facility-entry-point' could not be found, so the value set cannot be expanded
+== fsh-generated/resources/ValueSet-follow-up-type-vs.json ==
+WARNING: ValueSet/follow-up-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-gonorrhoea-specimen-type-vs.json ==
+WARNING: ValueSet/gonorrhoea-specimen-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-gonorrhoea-test-result-vs.json ==
+WARNING: ValueSet/gonorrhoea-test-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hsv-test-type-vs.json ==
+WARNING: ValueSet/hsv-test-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ipv-enquiry-result-vs.json ==
+WARNING: ValueSet/ipv-enquiry-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-mycoplasma-genitalium-test-type-vs.json ==
+WARNING: ValueSet/mycoplasma-genitalium-test-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-neisseria-gonorrhoeae-test-type-vs.json ==
+WARNING: ValueSet/neisseria-gonorrhoeae-test-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-srh-integrated-services-vs.json ==
+WARNING: ValueSet/srh-integrated-services-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-sti-result-vs.json ==
+WARNING: ValueSet/sti-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-sti-syndrome-vs.json ==
+WARNING: ValueSet/sti-syndrome-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-sti-test-type-vs.json ==
+WARNING: ValueSet/sti-test-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-syphilis-confirmatory-test-type-vs.json ==
+WARNING: ValueSet/syphilis-confirmatory-test-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-syphilis-test-result-vs.json ==
+WARNING: ValueSet/syphilis-test-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-syphilis-test-type-vs.json ==
+WARNING: ValueSet/syphilis-test-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-trichomonas-vaginalis-test-type-vs.json ==
+WARNING: ValueSet/trichomonas-vaginalis-test-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-vmmc-adverse-event-severity-vs.json ==
+WARNING: ValueSet/vmmc-adverse-event-severity-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-vmmc-adverse-event-timing-vs.json ==
+WARNING: ValueSet/vmmc-adverse-event-timing-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "neisseria-gonorrhoeae-test-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem neisseria-gonorrhoeae-test-type-cs</b></p><a name=\"neisseria-gonorrhoeae-test-type-cs\"> </a><a name=\"hcneisseria-gonorrhoeae-test-type-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">urine<a name=\"neisseria-gonorrhoeae-test-type-cs-urine\"> </a></td><td>Urine</td></tr><tr><td style=\"white-space:nowrap\">naat<a name=\"neisseria-gonorrhoeae-test-type-cs-naat\"> </a></td><td>NAAT</td></tr><tr><td style=\"white-space:nowrap\">inconclusive<a name=\"neisseria-gonorrhoeae-test-type-cs-inconclusive\"> </a></td><td>Inconclusive</td></tr><tr><td style=\"white-space:nowrap\">poc-test<a name=\"neisseria-gonorrhoeae-test-type-cs-poc-test\"> </a></td><td>POC Test</td></tr><tr><td style=\"white-space:nowrap\">culture<a name=\"neisseria-gonorrhoeae-test-type-cs-culture\"> </a></td><td>Culture</td></tr><tr><td style=\"white-space:nowrap\">microscopy<a name=\"neisseria-gonorrhoeae-test-type-cs-microscopy\"> </a></td><td>Microscopy</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"neisseria-gonorrhoeae-test-type-cs-other\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs",
+  "version" : "0.1.0",
+  "name" : "NeisseriaGonorrhoeaeTestTypeCS",
+  "title" : "Neisseria gonorrhoeae Test Type Code System",
+  "status" : "active",
+  "date" : "2026-06-17T09:34:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Codes for Neisseria gonorrhoeae test types",
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "urine",
+    "display" : "Urine"
+  },
+  {
+    "code" : "naat",
+    "display" : "NAAT"
+  },
+  {
+    "code" : "inconclusive",
+    "display" : "Inconclusive"
+  },
+  {
+    "code" : "poc-test",
+    "display" : "POC Test"
+  },
+  {
+    "code" : "culture",
+    "display" : "Culture"
+  },
+  {
+    "code" : "microscopy",
+    "display" : "Microscopy"
+  },
+  {
+    "code" : "other",
+    "display" : "Other"
+  }]
+}

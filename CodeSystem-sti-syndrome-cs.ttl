@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "sti-syndrome-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sti-syndrome-cs</b></p><a name=\"sti-syndrome-cs\"> </a><a name=\"hcsti-syndrome-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">URETHRAL_DISCHARGE<a name=\"sti-syndrome-cs-URETHRAL_DISCHARGE\"> </a></td><td>Urethral discharge syndrome</td></tr><tr><td style=\"white-space:nowrap\">VAGINAL_DISCHARGE<a name=\"sti-syndrome-cs-VAGINAL_DISCHARGE\"> </a></td><td>Vaginal discharge syndrome</td></tr><tr><td style=\"white-space:nowrap\">LOWER_ABDOMINAL_PAIN<a name=\"sti-syndrome-cs-LOWER_ABDOMINAL_PAIN\"> </a></td><td>Lower abdominal pain</td></tr><tr><td style=\"white-space:nowrap\">GENITAL_ULCER<a name=\"sti-syndrome-cs-GENITAL_ULCER\"> </a></td><td>Genital ulcer disease syndrome</td></tr><tr><td style=\"white-space:nowrap\">SCROTAL_SWELLING<a name=\"sti-syndrome-cs-SCROTAL_SWELLING\"> </a></td><td>Swelling of the scrotum</td></tr><tr><td style=\"white-space:nowrap\">CONJUNCTIVITIS<a name=\"sti-syndrome-cs-CONJUNCTIVITIS\"> </a></td><td>Inflammation of the conjunctiva</td></tr><tr><td style=\"white-space:nowrap\">SENT_FOR_TESTING<a name=\"sti-syndrome-cs-SENT_FOR_TESTING\"> </a></td><td>Sent for testing</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"sti-syndrome-cs-OTHER\"> </a></td><td>Other syndrome/STI diagnosed</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "STISyndromeCS"] ; # 
+  fhir:title [ fhir:v "Syndrome/STI Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2026-06-17T09:34:47+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:description [ fhir:v "Code system of Syndrome/STI codes."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "8"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "URETHRAL_DISCHARGE" ] ;
+     fhir:display [ fhir:v "Urethral discharge syndrome" ]
+  ] [
+     fhir:code [ fhir:v "VAGINAL_DISCHARGE" ] ;
+     fhir:display [ fhir:v "Vaginal discharge syndrome" ]
+  ] [
+     fhir:code [ fhir:v "LOWER_ABDOMINAL_PAIN" ] ;
+     fhir:display [ fhir:v "Lower abdominal pain" ]
+  ] [
+     fhir:code [ fhir:v "GENITAL_ULCER" ] ;
+     fhir:display [ fhir:v "Genital ulcer disease syndrome" ]
+  ] [
+     fhir:code [ fhir:v "SCROTAL_SWELLING" ] ;
+     fhir:display [ fhir:v "Swelling of the scrotum" ]
+  ] [
+     fhir:code [ fhir:v "CONJUNCTIVITIS" ] ;
+     fhir:display [ fhir:v "Inflammation of the conjunctiva" ]
+  ] [
+     fhir:code [ fhir:v "SENT_FOR_TESTING" ] ;
+     fhir:display [ fhir:v "Sent for testing" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other syndrome/STI diagnosed" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

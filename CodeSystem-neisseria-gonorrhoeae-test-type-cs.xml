@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="neisseria-gonorrhoeae-test-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem neisseria-gonorrhoeae-test-type-cs</b></p><a name="neisseria-gonorrhoeae-test-type-cs"> </a><a name="hcneisseria-gonorrhoeae-test-type-cs"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">urine<a name="neisseria-gonorrhoeae-test-type-cs-urine"> </a></td><td>Urine</td></tr><tr><td style="white-space:nowrap">naat<a name="neisseria-gonorrhoeae-test-type-cs-naat"> </a></td><td>NAAT</td></tr><tr><td style="white-space:nowrap">inconclusive<a name="neisseria-gonorrhoeae-test-type-cs-inconclusive"> </a></td><td>Inconclusive</td></tr><tr><td style="white-space:nowrap">poc-test<a name="neisseria-gonorrhoeae-test-type-cs-poc-test"> </a></td><td>POC Test</td></tr><tr><td style="white-space:nowrap">culture<a name="neisseria-gonorrhoeae-test-type-cs-culture"> </a></td><td>Culture</td></tr><tr><td style="white-space:nowrap">microscopy<a name="neisseria-gonorrhoeae-test-type-cs-microscopy"> </a></td><td>Microscopy</td></tr><tr><td style="white-space:nowrap">other<a name="neisseria-gonorrhoeae-test-type-cs-other"> </a></td><td>Other</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs"/>
+  <version value="0.1.0"/>
+  <name value="NeisseriaGonorrhoeaeTestTypeCS"/>
+  <title value="Neisseria gonorrhoeae Test Type Code System"/>
+  <status value="active"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Codes for Neisseria gonorrhoeae test types"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="urine"/>
+    <display value="Urine"/>
+  </concept>
+  <concept>
+    <code value="naat"/>
+    <display value="NAAT"/>
+  </concept>
+  <concept>
+    <code value="inconclusive"/>
+    <display value="Inconclusive"/>
+  </concept>
+  <concept>
+    <code value="poc-test"/>
+    <display value="POC Test"/>
+  </concept>
+  <concept>
+    <code value="culture"/>
+    <display value="Culture"/>
+  </concept>
+  <concept>
+    <code value="microscopy"/>
+    <display value="Microscopy"/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+  </concept>
+</CodeSystem>

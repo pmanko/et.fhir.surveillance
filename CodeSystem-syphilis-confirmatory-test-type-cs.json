@@ -1,0 +1,38 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "syphilis-confirmatory-test-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem syphilis-confirmatory-test-type-cs</b></p><a name=\"syphilis-confirmatory-test-type-cs\"> </a><a name=\"hcsyphilis-confirmatory-test-type-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">treponemal<a name=\"syphilis-confirmatory-test-type-cs-treponemal\"> </a></td><td>Treponemal</td></tr><tr><td style=\"white-space:nowrap\">non-treponemal<a name=\"syphilis-confirmatory-test-type-cs-non-treponemal\"> </a></td><td>Non-treponemal</td></tr><tr><td style=\"white-space:nowrap\">poc<a name=\"syphilis-confirmatory-test-type-cs-poc\"> </a></td><td>POC Test</td></tr><tr><td style=\"white-space:nowrap\">naat<a name=\"syphilis-confirmatory-test-type-cs-naat\"> </a></td><td>NAAT</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"syphilis-confirmatory-test-type-cs-other\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/surveillance/CodeSystem/syphilis-confirmatory-test-type-cs",
+  "version" : "0.1.0",
+  "name" : "SyphilisConfirmatoryTestTypeCS",
+  "title" : "Confirmatory Syphilis Test Type CodeSystem",
+  "status" : "draft",
+  "date" : "2026-06-17T09:34:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Codes for confirmatory syphilis test types",
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "treponemal",
+    "display" : "Treponemal"
+  },
+  {
+    "code" : "non-treponemal",
+    "display" : "Non-treponemal"
+  },
+  {
+    "code" : "poc",
+    "display" : "POC Test"
+  },
+  {
+    "code" : "naat",
+    "display" : "NAAT"
+  },
+  {
+    "code" : "other",
+    "display" : "Other"
+  }]
+}

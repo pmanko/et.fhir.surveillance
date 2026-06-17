@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="sti-test-type-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet sti-test-type-vs</b></p><a name="sti-test-type-vs"> </a><a name="hcsti-test-type-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-sti-test-type-cs.html"><code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://fhir.et/surveillance/ValueSet/sti-test-type-vs"/>
+  <version value="0.1.0"/>
+  <name value="STITestTypeVS"/>
+  <title value="STI Tested For"/>
+  <status value="draft"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Value set of STI Tested For values."/>
+  <compose>
+    <include>
+      <system value="http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"/>
+    </include>
+  </compose>
+</ValueSet>

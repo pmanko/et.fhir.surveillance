@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/surveillance/CodeSystem/sti-test-type-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "sti-test-type-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem sti-test-type-cs</b></p><a name=\"sti-test-type-cs\"> </a><a name=\"hcsti-test-type-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/sti-test-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">NG<a name=\"sti-test-type-cs-NG\"> </a></td><td>Neisseria gonorrhoeae</td></tr><tr><td style=\"white-space:nowrap\">CT<a name=\"sti-test-type-cs-CT\"> </a></td><td>Chlamydia trachomatis</td></tr><tr><td style=\"white-space:nowrap\">TV<a name=\"sti-test-type-cs-TV\"> </a></td><td>Trichomonas vaginalis</td></tr><tr><td style=\"white-space:nowrap\">SYPHILIS<a name=\"sti-test-type-cs-SYPHILIS\"> </a></td><td>Syphilis (Treponema pallidum)</td></tr><tr><td style=\"white-space:nowrap\">HSV<a name=\"sti-test-type-cs-HSV\"> </a></td><td>Herpes simplex virus (HSV1, HSV2)</td></tr><tr><td style=\"white-space:nowrap\">MG<a name=\"sti-test-type-cs-MG\"> </a></td><td>Mycoplasma genitalium</td></tr><tr><td style=\"white-space:nowrap\">MPOX<a name=\"sti-test-type-cs-MPOX\"> </a></td><td>Mpox</td></tr><tr><td style=\"white-space:nowrap\">HEPB<a name=\"sti-test-type-cs-HEPB\"> </a></td><td>Hepatitis B</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"sti-test-type-cs-OTHER\"> </a></td><td>Other</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/surveillance/CodeSystem/sti-test-type-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "STITestTypeCS"] ; # 
+  fhir:title [ fhir:v "STI Test Types"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2026-06-17T09:34:47+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:description [ fhir:v "Code system of STI Test Types codes."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "9"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "NG" ] ;
+     fhir:display [ fhir:v "Neisseria gonorrhoeae" ]
+  ] [
+     fhir:code [ fhir:v "CT" ] ;
+     fhir:display [ fhir:v "Chlamydia trachomatis" ]
+  ] [
+     fhir:code [ fhir:v "TV" ] ;
+     fhir:display [ fhir:v "Trichomonas vaginalis" ]
+  ] [
+     fhir:code [ fhir:v "SYPHILIS" ] ;
+     fhir:display [ fhir:v "Syphilis (Treponema pallidum)" ]
+  ] [
+     fhir:code [ fhir:v "HSV" ] ;
+     fhir:display [ fhir:v "Herpes simplex virus (HSV1, HSV2)" ]
+  ] [
+     fhir:code [ fhir:v "MG" ] ;
+     fhir:display [ fhir:v "Mycoplasma genitalium" ]
+  ] [
+     fhir:code [ fhir:v "MPOX" ] ;
+     fhir:display [ fhir:v "Mpox" ]
+  ] [
+     fhir:code [ fhir:v "HEPB" ] ;
+     fhir:display [ fhir:v "Hepatitis B" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

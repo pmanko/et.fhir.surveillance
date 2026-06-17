@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "counselling-provided-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet counselling-provided-vs</b></p><a name=\"counselling-provided-vs\"> </a><a name=\"hccounselling-provided-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-counselling-provided-cs.html\"><code>http://fhir.et/surveillance/CodeSystem/counselling-provided-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://fhir.et/surveillance/ValueSet/counselling-provided-vs",
+  "version" : "0.1.0",
+  "name" : "CounsellingProvidedVS",
+  "title" : "Counselling Provided",
+  "status" : "active",
+  "date" : "2026-06-17T09:34:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Value set of Counselling Provided values.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.et/surveillance/CodeSystem/counselling-provided-cs"
+    }]
+  }
+}

@@ -1,0 +1,41 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "trichomonas-vaginalis-test-type-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem trichomonas-vaginalis-test-type-cs</b></p><a name=\"trichomonas-vaginalis-test-type-cs\"> </a><a name=\"hctrichomonas-vaginalis-test-type-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">poc-test<a name=\"trichomonas-vaginalis-test-type-cs-poc-test\"> </a></td><td>POC Test</td></tr><tr><td style=\"white-space:nowrap\">culture<a name=\"trichomonas-vaginalis-test-type-cs-culture\"> </a></td><td>Culture</td></tr><tr><td style=\"white-space:nowrap\">microscopy<a name=\"trichomonas-vaginalis-test-type-cs-microscopy\"> </a></td><td>Microscopy</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"trichomonas-vaginalis-test-type-cs-other\"> </a></td><td>Other</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/surveillance/CodeSystem/trichomonas-vaginalis-test-type-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "TrichomonasVaginalisTestTypeCS"] ; # 
+  fhir:title [ fhir:v "Trichomonas vaginalis Test Type Code System"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-06-17T09:34:47+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:description [ fhir:v "Codes for Trichomonas vaginalis test types"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "poc-test" ] ;
+     fhir:display [ fhir:v "POC Test" ]
+  ] [
+     fhir:code [ fhir:v "culture" ] ;
+     fhir:display [ fhir:v "Culture" ]
+  ] [
+     fhir:code [ fhir:v "microscopy" ] ;
+     fhir:display [ fhir:v "Microscopy" ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

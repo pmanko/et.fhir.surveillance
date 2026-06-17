@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vmmc-adverse-event-timing-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet vmmc-adverse-event-timing-vs</b></p><a name="vmmc-adverse-event-timing-vs"> </a><a name="hcvmmc-adverse-event-timing-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-vmmc-adverse-event-timing-cs.html"><code>http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://fhir.et/surveillance/ValueSet/vmmc-adverse-event-timing-vs"/>
+  <version value="0.1.0"/>
+  <name value="VMMCAdverseEventTimingVS"/>
+  <title value="Timing of VMMC Adverse Event"/>
+  <status value="draft"/>
+  <date value="2026-06-17T09:34:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Value set of Timing of VMMC Adverse Event values."/>
+  <compose>
+    <include>
+      <system value="http://fhir.et/surveillance/CodeSystem/vmmc-adverse-event-timing-cs"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "neisseria-gonorrhoeae-test-type-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem neisseria-gonorrhoeae-test-type-cs</b></p><a name=\"neisseria-gonorrhoeae-test-type-cs\"> </a><a name=\"hcneisseria-gonorrhoeae-test-type-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">urine<a name=\"neisseria-gonorrhoeae-test-type-cs-urine\"> </a></td><td>Urine</td></tr><tr><td style=\"white-space:nowrap\">naat<a name=\"neisseria-gonorrhoeae-test-type-cs-naat\"> </a></td><td>NAAT</td></tr><tr><td style=\"white-space:nowrap\">inconclusive<a name=\"neisseria-gonorrhoeae-test-type-cs-inconclusive\"> </a></td><td>Inconclusive</td></tr><tr><td style=\"white-space:nowrap\">poc-test<a name=\"neisseria-gonorrhoeae-test-type-cs-poc-test\"> </a></td><td>POC Test</td></tr><tr><td style=\"white-space:nowrap\">culture<a name=\"neisseria-gonorrhoeae-test-type-cs-culture\"> </a></td><td>Culture</td></tr><tr><td style=\"white-space:nowrap\">microscopy<a name=\"neisseria-gonorrhoeae-test-type-cs-microscopy\"> </a></td><td>Microscopy</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"neisseria-gonorrhoeae-test-type-cs-other\"> </a></td><td>Other</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/surveillance/CodeSystem/neisseria-gonorrhoeae-test-type-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NeisseriaGonorrhoeaeTestTypeCS"] ; # 
+  fhir:title [ fhir:v "Neisseria gonorrhoeae Test Type Code System"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-06-17T09:34:47+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:description [ fhir:v "Codes for Neisseria gonorrhoeae test types"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "urine" ] ;
+     fhir:display [ fhir:v "Urine" ]
+  ] [
+     fhir:code [ fhir:v "naat" ] ;
+     fhir:display [ fhir:v "NAAT" ]
+  ] [
+     fhir:code [ fhir:v "inconclusive" ] ;
+     fhir:display [ fhir:v "Inconclusive" ]
+  ] [
+     fhir:code [ fhir:v "poc-test" ] ;
+     fhir:display [ fhir:v "POC Test" ]
+  ] [
+     fhir:code [ fhir:v "culture" ] ;
+     fhir:display [ fhir:v "Culture" ]
+  ] [
+     fhir:code [ fhir:v "microscopy" ] ;
+     fhir:display [ fhir:v "Microscopy" ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

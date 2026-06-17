@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mycoplasma-genitalium-test-type-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mycoplasma-genitalium-test-type-vs</b></p><a name=\"mycoplasma-genitalium-test-type-vs\"> </a><a name=\"hcmycoplasma-genitalium-test-type-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-mycoplasma-genitalium-test-type-cs.html\"><code>http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://fhir.et/surveillance/ValueSet/mycoplasma-genitalium-test-type-vs",
+  "version" : "0.1.0",
+  "name" : "MycoplasmaGenitaliumTestTypeVS",
+  "title" : "Mycoplasma genitalium Test Type Value Set",
+  "status" : "active",
+  "date" : "2026-06-17T09:34:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Allowed values for Mycoplasma genitalium test types",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.et/surveillance/CodeSystem/mycoplasma-genitalium-test-type-cs"
+    }]
+  }
+}

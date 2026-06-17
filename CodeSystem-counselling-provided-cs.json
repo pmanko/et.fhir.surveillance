@@ -1,0 +1,42 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "counselling-provided-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem counselling-provided-cs</b></p><a name=\"counselling-provided-cs\"> </a><a name=\"hccounselling-provided-cs\"> </a><p>This  code system <code>http://fhir.et/surveillance/CodeSystem/counselling-provided-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">hiv-positive<a name=\"counselling-provided-cs-hiv-positive\"> </a></td><td>HIV-positive counselling conducted</td></tr><tr><td style=\"white-space:nowrap\">hepb-positive<a name=\"counselling-provided-cs-hepb-positive\"> </a></td><td>Hepatitis B positive counselling conducted</td></tr><tr><td style=\"white-space:nowrap\">hepc-positive<a name=\"counselling-provided-cs-hepc-positive\"> </a></td><td>Hepatitis C positive counselling conducted</td></tr><tr><td style=\"white-space:nowrap\">syphilis<a name=\"counselling-provided-cs-syphilis\"> </a></td><td>Syphilis counselling, treatment and further testing</td></tr><tr><td style=\"white-space:nowrap\">art-linkage<a name=\"counselling-provided-cs-art-linkage\"> </a></td><td>Linked to enrolment in care and ART initiation</td></tr><tr><td style=\"white-space:nowrap\">vmmc<a name=\"counselling-provided-cs-vmmc\"> </a></td><td>VMMC counselling provided</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/surveillance/CodeSystem/counselling-provided-cs",
+  "version" : "0.1.0",
+  "name" : "CounsellingProvidedCS",
+  "title" : "Counselling Provided",
+  "status" : "active",
+  "date" : "2026-06-17T09:34:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Types of counselling provided to client",
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "hiv-positive",
+    "display" : "HIV-positive counselling conducted"
+  },
+  {
+    "code" : "hepb-positive",
+    "display" : "Hepatitis B positive counselling conducted"
+  },
+  {
+    "code" : "hepc-positive",
+    "display" : "Hepatitis C positive counselling conducted"
+  },
+  {
+    "code" : "syphilis",
+    "display" : "Syphilis counselling, treatment and further testing"
+  },
+  {
+    "code" : "art-linkage",
+    "display" : "Linked to enrolment in care and ART initiation"
+  },
+  {
+    "code" : "vmmc",
+    "display" : "VMMC counselling provided"
+  }]
+}

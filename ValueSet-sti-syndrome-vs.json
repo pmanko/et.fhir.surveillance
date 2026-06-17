@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "sti-syndrome-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet sti-syndrome-vs</b></p><a name=\"sti-syndrome-vs\"> </a><a name=\"hcsti-syndrome-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-sti-syndrome-cs.html\"><code>http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://fhir.et/surveillance/ValueSet/sti-syndrome-vs",
+  "version" : "0.1.0",
+  "name" : "STISyndromeVS",
+  "title" : "Syndrome/STI Diagnosed",
+  "status" : "draft",
+  "date" : "2026-06-17T09:34:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Value set of Syndrome/STI Diagnosed values.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.et/surveillance/CodeSystem/sti-syndrome-cs"
+    }]
+  }
+}
